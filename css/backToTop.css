@@ -1,0 +1,6 @@
+#backToTop {
+    visibility:hidden;
+    top:calc(100% / 2);
+    top:-moz-calc(100% / 2);
+    top:-o-calc(100% / 2);
+}
