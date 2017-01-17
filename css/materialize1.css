@@ -3423,8 +3423,6 @@ input[type=range] + .thumb {
 
 @media only screen and (min-width: 993px) {
   .container1 {
-    margin-left: 11rem;
-    margin-right: 0rem;
     width: 86%;
   }
 }
