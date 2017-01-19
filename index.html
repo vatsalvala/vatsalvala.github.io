@@ -11,6 +11,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet">
 	<link href="css/backToTop.css" type="text/css" rel="stylesheet" media="screen,projection" />
 	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- like diskike Link https://github.com/uagrace/like-dislike  -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="js/like-dislike.min.js"></script>
+	<!-- like diskike finished  -->
 	<style>
 		html,
 		body,
@@ -240,7 +244,7 @@
 			<br>
 			<!--  SBP site -->
 			<div class="row z-depth-2 white">
-				<div class="col s12 m7">
+				<div class="col s12 m7 hide-on-med-and-down">
 					<span class="komal">
 					    <img width="100%" height="auto" src="img/sbp.png" style="top: 0px" />
 				 	</span>
@@ -262,7 +266,7 @@
 							<br>
 							<br>Launch on 2016</i></h5>
 					</div>
-					<div class="col s12 m7">
+					<div class="col s12 m7 hide-on-med-and-down">
 						<span class="komal">
 							 <img width="100%" height="auto" src="img/wordofcivilengineer.jpg" style="top: 0px" />
 						</span>
@@ -408,58 +412,75 @@
 		<div class="container white-text" id="contact1">
 			<div class="row">
 				<h5 class="center">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't <br> be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
-                </h5>
-				<div class="col s12 m3 blue-grey darken-4">
-					<br>
-					<center>
-						<img src="img/vatsal.jpg" class="circle responsive-img z-depth-4">
-						<h5><font color="#00AC92">Vatsal Sureshbhai Vala</font></h5>
-						<div class="divider teal"></div>
-						<table class="centered white-text">
-							<tbody>
-								<tr>
-									<td>
-										<font color="#00AC92"><i class="material-icons">call</i></font>
-									</td>
-									<td>
-										<font color="#00AC92">GSM# +91-8460024846</font>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<font color="#00AC92"><i class="material-icons">place</i></font>
-									</td>
-									<td>
-										<font color="#00AC92">Vadodara, Gujarat, India</font>
-									</td>
-								</tr>
-							</tbody>
-						</table>
-					</center>
+          	</h5>
+				<div class="col s12 m4">
+		  			<div class="row">
+			  			<div class="card blue-grey darken-4">
+							<center>
+								<br>
+								<img src="img/vatsal.jpg" class="circle responsive-img z-depth-4">
+								<h5><font color="#00AC92">Vatsal Sureshbhai Vala</font></h5>
+								<div class="divider teal"></div>
+								<table class="centered white-text">
+									<tbody>
+										<tr>
+											<td>
+												<font color="#00AC92"><i class="material-icons">call</i></font>
+											</td>
+											<td>
+												<font color="#00AC92">GSM# +91-8460024846</font>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<font color="#00AC92"><i class="material-icons">place</i></font>
+											</td>
+											<td>
+												<font color="#00AC92">Vadodara, Gujarat, India</font>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</center>
+						</div>
+					</div>
 				</div>
-				<div class="col s12 m5">
+				<div class="col s12 m4">
 					<blockquote>
 						Do you need a website, have a question or comment?
 						<br> Please feel free to send me an message in this handy contact form.
 						<br> My aim is to reply within 24 hours.
 					</blockquote>
 					<blockquote>
-						<h5>My Networks:
-                    <h6>
-                        <a class="btn-floating btn tooltipped waves-effect waves-light blue darken-3" data-position="bottom" data-delay="50" data-tooltip="Facebook" href="https://www.facebook.com/vatsalvala" target="_blank">
-									<i class="fa fa-facebook" aria-hidden="true"></i>
-								</a>
-                        <a class="btn-floating btn tooltipped waves-effect waves-light red darken-1" href="https://youtube.com/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="YouTUBE">
-									<i class="fa fa-youtube" aria-hidden="true"></i>
-								</a>
-                        <a class="btn-floating btn tooltipped waves-effect waves-light blue" href="https://in.linkedin.com/in/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="linkedin">
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
-								</a>
-                        <a class="btn-floating btn tooltipped waves-effect waves-light black" href="https://500px.com/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="500px">
-									<i class="fa fa-500px" aria-hidden="true"></i>
-								</a>
-                    </h6>
-                    </h5>
+						<h5>My Networks:</h5>
+						<h6>
+						   <a class="btn-floating btn tooltipped waves-effect waves-light blue darken-3" data-position="bottom" data-delay="50" data-tooltip="Facebook" href="https://www.facebook.com/vatsalvala" target="_blank">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+						   <a class="btn-floating btn tooltipped waves-effect waves-light red darken-1" href="https://youtube.com/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="YouTUBE">
+								<i class="fa fa-youtube" aria-hidden="true"></i>
+							</a>
+						   <a class="btn-floating btn tooltipped waves-effect waves-light blue" href="https://in.linkedin.com/in/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="linkedin">
+								<i class="fa fa-linkedin" aria-hidden="true"></i>
+							</a>
+						   <a class="btn-floating btn tooltipped waves-effect waves-light black" href="https://500px.com/vatsalvala" target="_blank" data-position="bottom" data-delay="50" data-tooltip="500px">
+								<i class="fa fa-500px" aria-hidden="true"></i>
+							</a>
+						</h6>
+					</blockquote>
+					<blockquote>
+						<h5 id="rating">Did you like my site?
+							<br>
+							<br>
+							<a class="like btn-floating white z-depth-4">
+								<i class="material-icons green-text">thumb_up</i>
+							</a>
+							<span class="likes green-text">0</span>
+							<a class="dislike btn-floating white z-depth-4">
+								<i class="material-icons prefix red-text">thumb_down</i>
+							</a>
+							<span class="dislikes red-text">0</span>
+						</h5>
 					</blockquote>
 				</div>
 				<div class="col s12 m4 blue-grey darken-4">
@@ -490,8 +511,8 @@
 							</div>
 							<div class="col s12">
 								<button class="btn waves-effect waves-light right" type="submit" name="action" value="Send">Submit
-                                    <i class="material-icons right">send</i>
-                                </button>
+                           <i class="material-icons right">send</i>
+                       	</button>
 							</div>
 						</div>
 						<ul class="errorMessages"></ul>
@@ -552,6 +573,24 @@
 		</a>
 	</div>
 
+	<script type="text/javascript">
+	    $('#rating').likeDislike({
+	        initialValue: 0,
+	        click: function (value, l, d, event) {
+	            var likes = $(this.element).find('.likes');
+	            var dislikes = $(this.element).find('.dislikes');
+
+	            likes.text(parseInt(likes.text()) + l);
+	            dislikes.text(parseInt(dislikes.text()) + d);
+
+	            // $.ajax({
+	            //     url: 'url',
+	            //     type: 'post',
+	            //     data: 'value=' + value,
+	            // });
+	        }
+	    });
+	</script>
 
 	<!--  Scripts-->
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js">
