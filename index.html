@@ -301,13 +301,13 @@
 					<blockquote>
 						<ul>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">school</i>
+								<i class="material-icons green-text hide-on-med-and-down">school</i>
 								<span> &nbsp;&nbsp;Gujarat Technological University</span>
 							</li>
 							<br>
 							<br>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">date_range</i>
+								<i class="material-icons green-text hide-on-med-and-down">date_range</i>
 								<span>&nbsp; 2010-2013</span>
 							</li>
 						</ul>
@@ -327,13 +327,13 @@
 					<blockquote>
 						<ul>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">school</i>
+								<i class="material-icons green-text hide-on-med-and-down">school</i>
 								<span> &nbsp;&nbsp;Gujarat secondary and Higher secondary Education board</span>
 							</li>
 							<br>
 							<br>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">date_range</i>
+								<i class="material-icons green-text hide-on-med-and-down">date_range</i>
 								<span> &nbsp;&nbsp;2007-2008</span>
 							</li>
 						</ul>
@@ -354,12 +354,12 @@
 					<blockquote>
 						<ul>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">place</i>
+								<i class="material-icons green-text hide-on-med-and-down">place</i>
 								<span> &nbsp;&nbsp;Vinayak Associates, Vadodara</span>
 							</li>
 							<br>
 							<li class="collection-item valign-wrapper">
-								<i class="material-icons green-text">date_range</i>
+								<i class="material-icons green-text hide-on-med-and-down">date_range</i>
 								<span> &nbsp;&nbsp;2013-2015</span>
 							</li>
 						</ul>
@@ -468,20 +468,6 @@
 							</a>
 						</h6>
 					</blockquote>
-					<blockquote>
-						<h5 id="rating">Did you like my site?
-							<br>
-							<br>
-							<a class="like btn-floating white z-depth-4">
-								<i class="material-icons green-text">thumb_up</i>
-							</a>
-							<span class="likes green-text">0</span>
-							<a class="dislike btn-floating white z-depth-4">
-								<i class="material-icons prefix red-text">thumb_down</i>
-							</a>
-							<span class="dislikes red-text">0</span>
-						</h5>
-					</blockquote>
 				</div>
 				<div class="col s12 m4 blue-grey darken-4">
 					<center>
@@ -573,6 +559,18 @@
 		</a>
 	</div>
 
+
+	<!--  feedback **** -->
+	<!-- Modal Trigger -->
+	<div class="fixed-action-btn hide-on-med-and-down" style="bottom: 25px; left: 4px">
+		<a class="waves-effect waves-light btn-large yellow lighten-1 blue-text z-depth-5" href="#modal1">Feedback</a>
+	</div>
+
+		<!-- Modal Structure -->
+		<div id="modal1" class="center modal modal-fixed-footer" style="width:690px;height:470px;">
+			<iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:680px;height:460px;border:0;">Loading poll...</iframe>
+		</div>
+
 	<script type="text/javascript">
 	    $('#rating').likeDislike({
 	        initialValue: 0,
@@ -598,6 +596,14 @@
 	<script src="js/materialize.js">
 	</script>
 	<script src="js/init.js">
+	</script>
+
+	<!-- for modal -->
+	<script>
+		$(document).ready(function(){
+		// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+		$('.modal').modal();
+		});
 	</script>
 
 	<!--  scroll on hover link: http://jsfiddle.net/VuTYx/2/ -->
