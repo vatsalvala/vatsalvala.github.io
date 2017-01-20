@@ -1,4 +1,4 @@
-# http://www.vatsalvala.xyz/
+# www.vatsalvala.xyz
 Web Home
 
 My new website using materializecss framework
