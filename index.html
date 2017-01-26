@@ -101,22 +101,17 @@
 		<div class="container hide-on-large-only">
 			<div class="row">
 				<h4 class="col s12 black-text">
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
-					<br>
 					Vatsal is trying<br>
 					to grow up,</h4>
 			</div>
 			<div class="right">
 				<h5 class="header col s12 light left-align black-text">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <br>
                 <br>but instead<br>
                 spends his time...</h5>
@@ -257,7 +252,7 @@
 			</div>
 		</nav>
 		<div class="container" id="design1">
-			<h4 class="center white-text"><b>My designed website Overview</b></h4>
+			<h4 class="center white-text">My designed website Overview</h4>
 			<br>
 			<!--  SBP site -->
 			<div class="row z-depth-2 white">
@@ -425,12 +420,11 @@
 				</a>
 			</div>
 		</nav>
-		<br>
 		<div class="container white-text" id="contact1">
+            <h5 class="center">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't <br> be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
+            </h5>
 			<div class="row">
-				<h5 class="center">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't <br> be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
-          	</h5>
-				<div class="col s12 m4">
+				<div class="col s12 m3">
 		  			<div class="row">
 			  			<div class="card blue-grey darken-4">
 							<center>
@@ -486,29 +480,26 @@
 						</h6>
 					</blockquote>
 				</div>
-				<div class="col s12 m4 blue-grey darken-4">
+				<div class="col s12 m5 blue-grey darken-4">
 					<center>
-						<h5><font color="#00AC92">Let's Get In Touch</font></h5> </center>
+						<h5><font color="#00AC92">Let's Get In Touch</font></h5>
+                    </center>
 					<div class="divider teal"></div>
 					<form method="POST" action="http://formspree.io/vala1992@gmail.com">
 						<div class="row teal-text">
-							<div class="input-field col s12">
-								<i class="material-icons prefix">account_circle</i>
+							<div class="input-field col s6">
 								<input  type="text" name="name" class="validate" id="contact_name" value="" required="">
 								<label for="contact_name">Your name</label>
 							</div>
-							<div class="input-field col s12">
-								<i class="material-icons prefix">call</i>
+							<div class="input-field col s6">
 								<input type="number" name="mobile" class="validate" id="contact_mobile" required="" length="10" value="">
 								<label data-error="Enter 10 digit Mobile Number" for="icon_telephone">Mobile Number</label>
 							</div>
 							<div class="input-field col s12">
-								<i class="material-icons prefix">mail</i>
 								<input name="email" class="validate" id="contact_email" required="" type="email" value="">
 								<label for="email" data-error="enter valid mail id">Email</label>
 							</div>
 							<div class="input-field col s12">
-								<i class="material-icons prefix">textsms</i>
 								<textarea class="materialize-textarea" id="contact_message" name="message" required=""></textarea>
 								<label for="contact_message">Message</label>
 							</div>
@@ -522,9 +513,15 @@
 					</form>
 				</div>
 			</div>
-		</div><br><br>
-	</div>
-
+		</div>        
+		<nav>
+			<div class="nav-wrapper container">
+				<a href="#about" class="brand-logo white-text center"> Top
+				</a>
+			</div>
+		</nav>
+    </div>      
+            
 	<!--  preloader  -->
 	<div class="preloader-background">
 		<div class="preloader-wrapper big active">
@@ -563,15 +560,7 @@
 			</div>
 		</div>
 	</div>
-
-	<!--  scroll to top  -->
-	<div class="fixed-action-btn" style="bottom: 0px; right: 650px;">
-		<a id="backToTop" href="#" onclick="scrollToTop();return false" class="btn-floating btn tooltipped waves-effect waves-light" href="https://500px.com/vatsalvala" target="_blank" data-position="right" data-delay="50" data-tooltip="Top">
-        
-        <i class="fa fa-chevron-circle-up teal" aria-hidden="true"></i>
-		</a>
-	</div>
-
+    
 	<!--  feedback **** -->
 	<!-- Modal Trigger -->
 	<div class="fixed-action-btn hide-on-med-and-down" style="bottom: 25px; left: 1px">
@@ -822,20 +811,7 @@
 		];
 		Materialize.scrollFire(options);
 	</script>
-
-	<!--  scroll to top   **link{https://gist.github.com/ricardozea/abb9f98a19f6d04a0269}-->
-	<script src="js/backToTop.js"></script>
-	<script>
-		var timeOut;
-
-		function scrollToTop() {
-			if (document.body.scrollTop != 0 || document.documentElement.scrollTop != 0) {
-				window.scrollBy(0, -50);
-				timeOut = setTimeout('scrollToTop()', 10);
-			} else clearTimeout(timeOut);
-		}
-	</script>
-
+    
 	<!-- preloader-->
 	<script>
 	document.addEventListener("DOMContentLoaded", function(){
