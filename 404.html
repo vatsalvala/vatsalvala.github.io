@@ -49,20 +49,14 @@
     
     <!-- google-analytics-->	 
 	<script>
-	       (function(i, s, o, g, r, a, m) {
-	           i['GoogleAnalyticsObject'] = r;
-	           i[r] = i[r] || function() {
-	               (i[r].q = i[r].q || []).push(arguments)
-	           }, i[r].l = 1 * new Date();
-	           a = s.createElement(o),
-	               m = s.getElementsByTagName(o)[0];
-	           a.async = 1;
-	           a.src = g;
-	           m.parentNode.insertBefore(a, m)
-	       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-	       ga('create', 'UA-55967794-4', 'auto');
-	       ga('send', 'pageview');
-	</script> 
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-55967794-4', 'auto');
+		  ga('send', 'pageview');
+	</script>
     
     <!--  scroll down -->	 
 	<script>
@@ -152,37 +146,7 @@
 	   };
 	</script> 
     
-    <!--  like dislike {http://www.jqueryscript.net/social-media/Minimal-Like-Dislike-Button-Plugin-with-jQuery-like-dislike.html}-->	 
-	<script>
-	   var likes=0, dislikes=0;
-	   //Functions to increase likes and immediately calculate bar widths
-	   function like(){
-	       likes++;
-	       calculateBar();
-	   }
-	   function dislike(){
-	       dislikes++;
-	       calculateBar();
-	   }
-	   //Calculates bar widths
-	   function calculateBar(){
-	       var total= likes+dislikes;
-	       //Simple math to calculate percentages
-	       var percentageLikes=(likes/total)*100;
-	       var percentageDislikes=(dislikes/total)*100;
-
-	       //We need to apply the widths to our elements
-	       document.getElementById('likes').style.width=percentageLikes.toString()+"%";
-	       document.getElementById('dislikes').style.width=percentageDislikes.toString()+"%";
-
-	       //We add the numbers on the buttons, just to show how to
-	       document.getElementById('likeButton').value="Like ("+likes.toString()+")";
-	       document.getElementById('dislikeButton').value="Disike ("+dislikes.toString()+")";
-
-	   }
-	   calculateBar();
-	</script>
-    
+  
     <!--  scroll fire   -->	 
 	<script>
 	     var options = [          
@@ -215,15 +179,6 @@
 	   else clearTimeout(timeOut);
 	   }
 	</script>
-    
-    <!-- google-analytics--> 
-	<script>
-	       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	       ga('create', 'UA-55967794-4', 'auto');
-	       ga('send', 'pageview');
-	</script>
+       
 </body>
 </html>
