@@ -6,4 +6,4 @@ My new website using materializecss framework
 Use for
 * Personal resume
 * Activity
-* Design Work
+* Web Design Work
