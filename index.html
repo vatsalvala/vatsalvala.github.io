@@ -1,10 +1,11 @@
+
 <html lang="en">
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
-	<title>Vatsal Vala | Web Home</title>
+	<title>Vatsal Vala | Web Home</title>	
+    <link rel="icon" href="img/logo.png">
     
-    <!-- CSS  -->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
 	<link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
@@ -51,10 +52,10 @@
        }
 	</style>
 </head>
-<body id="top">
+<body id="top" class="lime">
 	<!--  menu and top transperent bar -->
 	<div class="topbar"></div>
-	<div class="side-nav-button black" style="top: 10px; left: 10px">
+	<div class="side-nav-button black hide-on-med-and-down" style="top: 10px; left: 10px">
 		<ul class="side-nav fixed center" id="slide-out">           
             <li style="height:10px">
 			</li>
@@ -76,8 +77,10 @@
 			<li>
 				<a class="contacthover" href="#contact">Contact</a>
 			</li>
-		</ul><a class="sidebar-nav button-collapse fixed" data-activates="slide-out" href="#">
-				<i class="material-icons white-text">menu</i></a>
+		</ul>
+		<a class="sidebar-nav button-collapse fixed hide-on-med-and-down" data-activates="slide-out" href="#">
+			<i class="material-icons white-text">menu</i>
+		</a>
 	</div>
     
     <!--  about -->
@@ -95,21 +98,22 @@
 		</div>
 		<div class="parallax"><img src="img/01.JPG"></div>
 	</div>
-	<div class="hide-on-large-only" id="about">
+	<div class="hide-on-large-only lime" id="about">
 		<h4 class="center">Vatsal is trying<br>
 		to grow up,</h4>
 		<img src="img/01.JPG" style="width: 100%">
-		<h5 class="right">
+		<h5 class="right-align container"><br>
             but instead<br>
             spends his time...
-        </h5><br><br><br><br>
+        </h5><br>
 	</div>
     
     <!--  activity -->
 	<div class="block pink lighten-1">
 		<nav class="blue lighten-1" id="activity">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text"><i aria-hidden="true" class="fa fa-users"></i> Activity</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-users"></i> Activity</a>
+				<a class="brand-logo white-text hide-on-large-only"> Activity</a>
 			</div>
 		</nav><br>
 		<div class="parallax-container" id="activity1">
@@ -170,8 +174,22 @@
 								<p align="justify" class="black-text" style="font-size:18px">Here is some more information about this product that is only revealed once clicked on.</p>
 							</div>
 						</div>
+					</div>					
+					<div class="col s12 m4 black-text">
+						<div class="card hover-reveal">
+							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/wplogoindex.png"></div>
+							<div class="card-content">
+								<span class="card-title activator pink-text">Job Notification</span>
+								<p class="blue-text">Activity</p>
+							</div>
+							<div class="card-reveal blue lighten-1">
+								<span class="card-title"></span>
+								<h5><span class="card-title"><a class="white-text" href="job" target="_blank">Job Notification</a> </span></h5><span class="card-title"></span>
+								<p align="justify" class="black-text" style="font-size:18px">Share new job vacancy of Diploma and degree of Civil engineering by whatsapp group</p>
+							</div>
+						</div>
 					</div>
-					<div class="col s12 m8 black-text">
+					<div class="col s12 m4 black-text">
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/underconstruction.gif" style="height:31%"></div>
 							<div class="card-content">
@@ -194,7 +212,8 @@
 	<div class="block indigo lighten-1">
 		<nav class="orange darken-2" id="design">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text"><i aria-hidden="true" class="fa fa-code fa-lg"></i> Design</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-code fa-lg"></i> Design</a>
+				<a class="brand-logo white-text hide-on-large-only"> Design</a>
 			</div>
 		</nav>
 		<div class="container" id="design1">
@@ -229,7 +248,8 @@
 	<div class="block white">
 		<nav class="green" id="resume">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text"><i aria-hidden="true" class="fa fa-graduation-cap"></i> Resume</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-graduation-cap"></i> Resume</a>
+				<a class="brand-logo white-text hide-on-large-only"> Resume</a>
 			</div>
 		</nav><br>
 		<div class="container black-text">
@@ -237,6 +257,7 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Education</h5>
+            		<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
@@ -271,11 +292,12 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Experience</h5>
+            		<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>Site Supervisor</b></a>
-						<p> <b>2013-2015 | Vinayak Associates, Vadodara</b><br>
+						<p> <b>Vinayak Associates, Vadodara</b><br>
                             <i>Worked as site supervisor for 1.5 years at Vinayak Associates</i>
                         </p>
 					</blockquote>
@@ -285,6 +307,7 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Skill</h5>
+            	<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
@@ -303,6 +326,7 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Hobby</h5>
+            	<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
@@ -312,14 +336,15 @@
 				</div>
 				<div class="col s12 m5"></div>
 			</div>
-		</div>
+		</div><br>
 	</div>
     
     <!--  contact -->
 	<div class="block grey darken-4">
 		<nav class="teal lighten-1" id="contact">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text"><i aria-hidden="true" class="fa fa-send"></i> Contact</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-send"></i> Contact</a>
+				<a class="brand-logo white-text hide-on-large-only"> Contact</a>
 			</div>
 		</nav>
 		<div class="container white-text" id="contact1">
@@ -337,11 +362,7 @@
                         <tbody>
                             <tr>
                                 <td><font color="#00AC92"><i class="material-icons">web</i></font></td>
-                                <td><font color="#00AC92">Web designer</font></td>
-                            </tr>
-                            <tr>
-                                <td><font color="#00AC92"><i class="material-icons">call</i></font></td>
-                                <td><font color="#00AC92">GSM# +91-8460024846</font></td>
+                                <td><font color="#00AC92">Web developer</font></td>
                             </tr>
                             <tr>
                                 <td><font color="#00AC92"><i class="material-icons">place</i></font></td>
@@ -368,8 +389,7 @@
                         <!-- Modal Structure -->
                         <div class="center modal modal-fixed-footer" id="modal1" style="width:690px;height:470px;">
                             <iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:680px;height:460px;border:0;">Loading poll...</iframe>
-                        </div>
-                    <br>                  
+                        </div>           
 				    <h4><a class="brand-logo white-text center  hide-on-med-and-down" href="#about"><div class="card-panel red lighten-2">Top</div></a></h4>
 				</div>
 				<div class="col s12 m5 blue-grey darken-4">
@@ -398,18 +418,13 @@
 						<ul class="errorMessages"></ul>
 					</form>
 				</div>
-			</div>               
-            <h4>
-                <a class="brand-logo white-text center hide-on-large-only" href="#about">
-                    <div class="card-panel red lighten-2">Top</div>
-                </a>
-            </h4>
+			</div>        
             <br>
-		</div>
+		</div><br>
 	</div>
     
     <!--  preloader  -->
-	<div class="preloader-background">
+	<div class="preloader-background hide-on-med-and-down">
 		<div class="preloader-wrapper big active">
 			<div class="spinner-layer spinner-blue">
 				<div class="circle-clipper left">
