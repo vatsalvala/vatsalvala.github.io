@@ -351,6 +351,8 @@
 		</div><br>
 	</div>
     
+    
+    
     <!--  contact -->
 	<div class="block grey darken-4">
 		<nav class="teal lighten-1" id="contact">
@@ -359,15 +361,19 @@
 				<a class="brand-logo white-text hide-on-large-only"> Contact</a>
 			</div>
 		</nav>
-		<div class="container white-text" id="contact1">
-			<h5 class="center">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't<br>
+		<div class="container white-text" id="contact1"><br>
+			<h5 class="center hide-on-med-and-down">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't<br>
 			be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
             </h5>
+			<h5 class="center hide-on-large-only">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, <br>I will reply as soon as possible and don't
+			be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font><br> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
+            </h5><br>
 			<div class="row">
 				<div class="col s12 m3 blue-grey darken-4">                    
 					<center>
                     <br>
                     <img class="circle responsive-img z-depth-4" src="img/vatsal.jpg">
+
                     <h5><font color="#00AC92">Vatsal Sureshbhai Vala</font></h5>
                     <div class="divider teal"></div>
                     <table class="centered white-text">
@@ -384,7 +390,7 @@
                     </table>
 					</center>
                 </div>
-				<div class="col s12 m4 ">
+				<div class="col s12 m4">
 					<blockquote>
 						Do you need a website, have a question or comment?<br>
 						Please feel free to send me an message in this handy contact form.<br>
@@ -393,16 +399,15 @@
 					<blockquote>
 						<h5>My Networks:</h5>
 						<h6><a class="btn-floating btn tooltipped waves-effect waves-light blue darken-3" data-delay="50" data-position="bottom" data-tooltip="Facebook" href="https://www.facebook.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light red darken-1" data-delay="50" data-position="bottom" data-tooltip="YouTUBE" href="https://youtube.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-youtube"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light blue" data-delay="50" data-position="bottom" data-tooltip="linkedin" href="https://in.linkedin.com/in/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light black" data-delay="50" data-position="bottom" data-tooltip="500px" href="https://500px.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-500px"></i></a></h6>
-					</blockquote>
-                    <br>         
+					</blockquote>      
                     <!--  feedback **** -->
                     <!-- Modal Trigger -->
 				    <h5><a class="brand-logo white-text center" href="#modal1"><div class="card-panel teal">Please rate for this site</div></a></h5>
                         <!-- Modal Structure -->
-                        <div class="center modal modal-fixed-footer" id="modal1" style="width:690px;height:470px;">
-                            <iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:680px;height:460px;border:0;">Loading poll...</iframe>
+                        <div class="center modal modal-fixed-footer" id="modal1" style="width:690px;height:460px;">
+                            <iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:100%;height:450px;border:0;">Loading poll...</iframe>
                         </div>           
-				    <h4><a class="brand-logo white-text center  hide-on-med-and-down" href="#about"><div class="card-panel red lighten-2">Top</div></a></h4>
+				    <h5><a class="brand-logo white-text center  hide-on-med-and-down" href="#about"><div class="card-panel red lighten-2">Top</div></a></h5>
 				</div>
 				<div class="col s12 m5 blue-grey darken-4">
 					<center>
@@ -414,17 +419,24 @@
 							<div class="input-field col s12">
 								<input class="validate" id="contact_name" name="name" required="" type="text" value=""> <label for="contact_name">Your name</label>
 							</div>
-							<div class="input-field col s12">
+							<div class="input-field col s6 hide-on-med-and-down">
 								<input class="validate" id="contact_mobile" name="mobile" required="" type="number" value=""> <label data-error="Enter 10 digit Mobile Number" for="icon_telephone">Mobile Number</label>
 							</div>
-							<div class="input-field col s12">
+							<div class="input-field col s12 hide-on-large-only">
+								<input class="validate" id="contact_mobile" name="mobile" required="" type="number" value=""> <label data-error="Enter 10 digit Mobile Number" for="icon_telephone">Mobile Number</label>
+							</div>
+							<div class="input-field col s6 hide-on-med-and-down">
+								<input class="validate" id="contact_email" name="email" required="" type="email" value=""> <label data-error="enter valid mail id" for="email">Email</label>
+							</div>
+							<div class="input-field col s12 hide-on-large-only">
 								<input class="validate" id="contact_email" name="email" required="" type="email" value=""> <label data-error="enter valid mail id" for="email">Email</label>
 							</div>
 							<div class="input-field col s12">
 								<textarea class="materialize-textarea" id="contact_message" name="message" required=""></textarea> <label for="contact_message">Message</label>
 							</div>
 							<div class="col s12">
-								<button class="btn waves-effect waves-light right" type="submit" value="Send">Submit <i class="material-icons right">send</i></button>
+								<button class="btn-large waves-effect waves-light right hide-on-med-and-down" type="submit" value="Send">Submit <i class="material-icons right">send</i></button>
+								<button class="btn waves-effect waves-light right hide-on-large-only" type="submit" value="Send">Submit <i class="material-icons right">send</i></button>
 							</div>
 						</div>
 						<ul class="errorMessages"></ul>
@@ -434,7 +446,6 @@
             <br>
 		</div><br>
 	</div>
-    
     <!--  preloader  -->
 	<div class="preloader-background hide-on-med-and-down">
 		<div class="preloader-wrapper big active">
