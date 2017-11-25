@@ -1,60 +1,71 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" name="viewport">
-	<title>Vatsal Vala | Web Home</title>
-	<link href="img/logo.png" rel="icon">
+	<title>Vatsal Vala | Web Home</title>	
+    <link rel="icon" href="img/logo.png">
+    
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link href="css/materialize.css" media="screen,projection" rel="stylesheet" type="text/css">
-	<link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css"><!-- Google Fonts Link https://fonts.google.com/specimen/Fira+Sans?selection.family=Fira+Sans:400,400i  -->
+	<link href="css/style.css" media="screen,projection" rel="stylesheet" type="text/css">
+    
+    <!-- Google Fonts Link https://fonts.google.com/specimen/Fira+Sans?selection.family=Fira+Sans:400,400i  -->
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i" rel="stylesheet">
 	<link href="css/backToTop.css" media="screen,projection" rel="stylesheet" type="text/css">
-	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">    
 	<style>
-	       html,
-	       body,
-	       .block {
-	           height: auto;
-	       }
-	       a.abouthover:hover {
-	           background-color: #8d6e63;
-	           color: white;
-	       }
-	       a.activityhover:hover {
-	           background-color: #42A5F6;
-	           color: white;
-	       }
-	       a.designhover:hover {
-	           background-color: #F57C00;
-	           color: white;
-	       }
-	       a.resumehover:hover {
-	           background-color: #4CAF50;
-	           color: white;
-	       }
-	       a.contributionhover:hover {
-	           background-color: #546e7a;
-	           color: white;
-	       }
-	       a.contacthover:hover {
-	           background-color: #26a69a;
-	           color: white;
-	       }
-	       div.scroll {
-	           width: 100px;
-	           height: 50%;
-	           overflow: auto;
-	       }
+       html,
+       body,
+       .block {
+           height: auto;
+       }
+       a.abouthover:hover
+       {
+           background-color: #8d6e63;
+           color: white;
+       }
+       a.activityhover:hover
+       {
+           background-color: #42A5F6;
+           color: white;
+       }
+       a.designhover:hover
+       {
+           background-color: #F57C00;
+           color: white;
+       }
+       a.resumehover:hover
+       {
+           background-color: #4CAF50;
+           color: white;
+       }
+       a.contributionhover:hover
+       {
+           background-color: #546e7a;
+           color: white;
+       }
+       a.contacthover:hover
+       {
+           background-color: #26a69a;
+           color: white;
+       }
+       div.scroll {
+           width: 100px;
+           height: 50%;
+           overflow: auto;
+       }
 	</style>
 </head>
-<body class="grey darken-4" id="top">
+<body id="top" class="grey darken-4">
 	<!--  menu and top transperent bar -->
 	<div class="topbar"></div>
 	<div class="side-nav-button black hide-on-med-and-down" style="top: 10px; left: 10px">
-		<ul class="side-nav fixed center" id="slide-out">
-			<li style="height:10px"></li>
-			<li style="height:200px"><img src="img/logo.png" style="height:130px"></li>
+		<ul class="side-nav fixed center" id="slide-out">           
+            <li style="height:10px">
+			</li>
+            <li style="height:200px">
+                <img src="img/logo.png" style="height:130px">
+            </li>
 			<li>
 				<a class="abouthover" href="#about">About</a>
 			</li>
@@ -73,8 +84,13 @@
 			<li>
 				<a class="contacthover" href="#contact">Contact</a>
 			</li>
-		</ul><a class="sidebar-nav button-collapse fixed hide-on-med-and-down" data-activates="slide-out" href="#"><i class="material-icons white-text">menu</i></a>
-	</div><!--  about -->
+		</ul>
+		<a class="sidebar-nav button-collapse fixed hide-on-med-and-down" data-activates="slide-out" href="#">
+			<i class="material-icons white-text">menu</i>
+		</a>
+	</div>
+    
+    <!--  about -->
 	<div class="parallax-container hide-on-med-and-down valign-wrapper" id="about">
 		<div class="container">
 			<div class="row">
@@ -89,17 +105,22 @@
 		</div>
 		<div class="parallax"><img src="img/01.JPG"></div>
 	</div>
-	<div class="hide-on-large-only grey darken-4" id="about">
-		<h4 class="center white-text">Vatsal is trying<br>
-		to grow up,</h4><img src="img/01.JPG" style="width: 100%">
-		<h5 class="right-align container white-text"><br>
-		but instead<br>
-		spends his time...</h5><br>
-	</div><!--  activity -->
+	<div class="hide-on-large-only grey darken-4 grey-text" id="about">
+		<h4 class="center">Vatsal is trying<br>
+		to grow up,</h4>
+		<img src="img/01.JPG" style="width: 100%">
+		<h5 class="right-align container"><br>
+            but instead<br>
+            spends his time...
+        </h5><br>
+	</div>
+    
+    <!--  activity -->
 	<div class="block pink lighten-1">
 		<nav class="blue lighten-1" id="activity">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-users"></i> Activity</a> <a class="brand-logo white-text hide-on-large-only">Activity</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-users"></i> Activity</a>
+				<a class="brand-logo white-text hide-on-large-only"> Activity</a>
 			</div>
 		</nav><br>
 		<div class="parallax-container" id="activity1">
@@ -109,7 +130,7 @@
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/wordofcivilengineer.jpg"></div>
 							<div class="card-content">
-								<span class="card-title activator pink-text">World of Civil Engineer</span>
+								<span class="card-title activator pink-text">World of Civil Engineer </span>
 								<p class="blue-text">September, 2016</p>
 							</div>
 							<div class="card-reveal blue lighten-1">
@@ -156,11 +177,11 @@
 							</div>
 							<div class="card-reveal blue lighten-1">
 								<span class="card-title"></span>
-								<h5><span class="card-title"><a class="white-text" href="http://photo.vatsalvala.in/" target="_blank">Photography</a> <i class="material-icons right white-text">close</i></span></h5><span class="card-title"></span>
+								<h5><span class="card-title"><a class="white-text" href="http://photo.vatsalvala.in/" target="_blank">Photography</a> <i class="material-icons right white-text">close</i> </span></h5><span class="card-title"></span>
 								<p align="justify" class="black-text" style="font-size:18px">Here is some more information about this product that is only revealed once clicked on.</p>
 							</div>
 						</div>
-					</div>
+					</div>					
 					<div class="col s12 m4 black-text">
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/wplogoindex.png"></div>
@@ -170,7 +191,7 @@
 							</div>
 							<div class="card-reveal blue lighten-1">
 								<span class="card-title"></span>
-								<h5><span class="card-title"><a class="white-text" href="http://job.vatsalvala.in/" target="_blank">Job Notification</a> <i class="material-icons right white-text">close</i></span></h5><span class="card-title"></span>
+								<h5><span class="card-title"><a class="white-text" href="http://job.vatsalvala.in/" target="_blank">Job Notification</a> <i class="material-icons right white-text">close</i> </span></h5><span class="card-title"></span>
 								<p align="justify" class="black-text" style="font-size:18px">Share new job vacancy of Diploma and degree of Civil engineering by whatsapp group</p>
 							</div>
 						</div>
@@ -192,15 +213,20 @@
 				</div>
 			</div>
 		</div>
-	</div><!--  design -->
+	</div>
+    
+    <!--  design -->
 	<div class="block indigo lighten-1">
 		<nav class="orange darken-2" id="design">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-code fa-lg"></i> Design</a> <a class="brand-logo white-text hide-on-large-only">Design</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-code fa-lg"></i> Design</a>
+				<a class="brand-logo white-text hide-on-large-only"> Design</a>
 			</div>
 		</nav>
 		<div class="container" id="design1">
-			<h4 class="center white-text">My designed website Overview</h4><!--  SBP site -->
+			<h4 class="center white-text">My designed website Overview</h4>
+			
+			<!--  SBP site -->
 			<div class="row z-depth-2 white">
 				<div class="col s12 m7 hide-on-med-and-down">
 					<span class="komal"><img height="auto" src="img/sbp.png" style="top: 0px" width="100%"></span>
@@ -211,7 +237,9 @@
 					<br>
 					Launched on 2014</i></h5>
 				</div>
-			</div><!--  civil site -->
+			</div>
+
+			<!--  civil site -->
 			<div class="row z-depth-2 white">
 				<div class="col s12 m5">
 					<h4><a href="http://material.vatsalvala.in" target="_blank"><font color="#F57C00"><b>World of Civil Engineer</b></font></a></h4><br>
@@ -222,49 +250,55 @@
 				<div class="col s12 m7 hide-on-med-and-down">
 					<span class="komal"><img height="auto" src="img/wordofcivilengineer.jpg" style="top: 0px" width="100%"></span>
 				</div>
-			</div><!--  feelmath site -->
+			</div>
+			
+			<!--  feelmath site -->
 			<div class="row z-depth-2 white">
 				<div class="col s12 m7 hide-on-med-and-down">
 					<span class="komal"><img height="auto" src="img/feelmath.png" style="top: 0px" width="100%"></span>
 				</div>
 				<div class="col s12 m5">
-					<h4><a href="http://www.feelmath.in" target="_blank"><font color="#F57C00"><b>feelmath</b></font></a></h4><br>
+					<h4><a href="www.feelmath.in"><font color="#F57C00"><b>feelmath</b></font></a></h4><br>
 					<h5><i>Education website<br>
 					<br>
 					Launched on 2017</i></h5>
 				</div>
 			</div>
 		</div><br>
-	</div><!--  resume -->
+	</div>
+    
+    <!--  resume -->
 	<div class="block white">
 		<nav class="green" id="resume">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-graduation-cap"></i> Resume</a> <a class="brand-logo white-text hide-on-large-only">Resume</a> <a class="z-depth-4 waves-effect waves-light btn tooltipped right green-text white hide-on-med-and-down" data-delay="50" data-position="bottom" data-tooltip="Download full resume" href="https://docs.google.com/uc?export=download&id=0B57w-hBcfM6bTDJGb05WeG5mT2s" style="margin-top: 15px" target="_blank">Download Resume</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-graduation-cap"></i> Resume</a>
+				<a class="brand-logo white-text hide-on-large-only"> Resume</a>
+				<a class="z-depth-4 waves-effect waves-light btn-large tooltipped right green-text white hide-on-med-and-down" data-delay="50" data-position="bottom" data-tooltip="Download full resume" style="margin-top: 5px" href="https://docs.google.com/uc?export=download&id=0B57w-hBcfM6bTDJGb05WeG5mT2s" target="_blank">Resume <i class="fa fa-download" aria-hidden="true" style="margin-bottom: 15px"></i></a>
 			</div>
 		</nav><br>
 		<div class="container black-text">
-			<center>
-				<a class="z-depth-3 waves-effect waves-light btn-large green-text white hide-on-large-only" href="https://docs.google.com/uc?export=download&id=0B57w-hBcfM6bTDJGb05WeG5mT2s" style="margin-top: 15px" target="_blank">Download Resume</a>
-			</center>
+			<center><a class="z-depth-3 waves-effect waves-light btn-large green-text white hide-on-large-only" style="margin-top: 15px" href="https://docs.google.com/uc?export=download&id=0B57w-hBcfM6bTDJGb05WeG5mT2s" target="_blank">Download Resume</a></center>
 			<div class="row">
 				<div class="col s12 m2">
 					<h5><br>
 					Education</h5>
-					<div class="divider hide-on-large-only"></div>
-					<div class="divider hide-on-large-only"></div>
+            		<div class="divider hide-on-large-only"></div>
+            				<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>Degree in Civil Engineering</b></a>
-						<p><b>Gujarat Technological University</b><br>
-						<i>Completed degree in Civil Engineering from Babaria Institute, Vadodara</i></p>
+						<p> <b>Gujarat Technological University</b><br>
+						    <i>Study in 8<sup>th</sup> semester of degree in Civil Engineering from Babaria Institute, Vadodara</i>
+						</p>
 					</blockquote>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>Diploma in Civil Engineering</b></a>
-						<p><b>Gujarat Technological University</b><br>
-						<i>Completed Diploma in Civil Engineering from Parul Institute, Vadodara</i></p>
+						<p> <b>Gujarat Technological University</b><br>
+						    <i>Completed Diploma in Civil Engineering from Parul Institute, Vadodara</i>
+						</p>
 					</blockquote>
 				</div>
 			</div>
@@ -273,8 +307,9 @@
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>10<sup>th</sup> Standard</b></a>
-						<p><b>G.S.E.B., Gujarat</b><br>
-						<i>Completed Diploma 10<sup>th</sup> Standard with elective Music subject from Vidhya Vihar school, Vadodara</i></p>
+						<p> <b>G.S.E.B., Gujarat</b><br>
+						    <i>Completed Diploma 10<sup>th</sup> Standard with elective Music subject from Vidhya Vihar school, Vadodara</i>
+						</p>
 					</blockquote>
 				</div>
 			</div>
@@ -282,14 +317,15 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Experience</h5>
-					<div class="divider hide-on-large-only"></div>
-					<div class="divider hide-on-large-only"></div>
+            		<div class="divider hide-on-large-only"></div>
+            				<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>Site Supervisor</b></a>
-						<p><b>Vinayak Associates, Vadodara</b><br>
-						<i>Worked as site supervisor at Vrajraj residancy for 1 year</i></p>
+						<p> 	<b>Vinayak Associates, Vadodara</b><br>
+                            				<i>Worked as site supervisor for 1.5 years at Vinayak Associates</i>
+						</p>
 					</blockquote>
 				</div>
 			</div>
@@ -297,22 +333,22 @@
 				<div class="col s12 m2">
 					<h5><br>
 					Skill</h5>
-					<div class="divider hide-on-large-only"></div>
-					<div class="divider hide-on-large-only"></div>
+            	<div class="divider hide-on-large-only"></div>
+            				<div class="divider hide-on-large-only"></div>
 				</div>
 				<div class="col s12 m5">
 					<blockquote>
 						<a class="green-text"><b>1. HTML Coding</b></a>
 						<p align="justify"><i>During my school days, I was fascinated and very enthusiastic with HTML coding as my subject. It motivated me to practice more and that enthusiasm got me to the whole new different level now. Hence I am able to create any kind of website by my own.</i></p>
 					</blockquote>
-				</div>
+				</div>				
 				<div class="col s12 m5">
 					<blockquote>
-						<a class="green-text"><b>2. AutoCAD</b></a>
-						<p align="justify"><i>Completed one month course in AutoCAD from authorised auto desk training centre</i></p>
+						<a class="green-text"><b>2. AutoCAD </b></a>
+						<p align="justify"><i>Completed one month course in AutoCAD from authorised auto desk training centre </i></p>
 					</blockquote>
 				</div>
-			</div>
+			</div>				
 			<div class="row">
 				<div class="col s12 m2"></div>
 				<div class="col s12 m5">
@@ -321,11 +357,10 @@
 						<p align="justify"><i>Just like all of you I also learned Microsoft office in my school life. I used different tools like Word, PowerPoint, Excel etc. for different purposes in school. But in college the use of all these tools got so intense as we were required to make different presentations and reports, as a result of which I got a strong grip in these tools and I am proud of myself for the knowledge I acquired.</i></p>
 					</blockquote>
 				</div>
-			</div>
+			</div>				
 			<div class="row">
 				<div class="col s12 m2">
-					<h5><br>
-					Hobby</h5>
+					<h5><br>Hobby</h5>
 					<div class="divider hide-on-large-only"></div>
 					<div class="divider hide-on-large-only"></div>
 				</div>
@@ -337,124 +372,150 @@
 				</div>
 				<div class="col s12 m5"></div>
 			</div>
-		</div><br>
-	</div><!--  contribution -->
+		</div>
+		<br>
+	</div>  
+    
+    <!--  contribution -->
 	<div class="block white">
 		<nav class="blue-grey darken-1" id="contribution">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-briefcase"></i>Contribution</a> <a class="brand-logo white-text hide-on-large-only">Contribution</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-briefcase"></i>Contribution</a>
+				<a class="brand-logo white-text hide-on-large-only">Contribution</a>
 			</div>
 		</nav><br>
 		<div class="container black-text">
 			<div class="col s12 hide-on-large-only">
-				<div class="card-panel grey lighten-5 z-depth-1">
-					<div class="row valign-wrapper">
-						<div class="col s4"><img class="circle responsive-img" src="img/micommunity.JPG"></div>
-						<div class="col s11">
-							<br>
+        		<div class="card-panel grey lighten-5 z-depth-1">
+					<div class="row valign-wrapper">	
+						<div class="col s4">
+							<img src="img/micommunity.JPG" class="circle responsive-img">
+						</div>
+						<div class="col s11"><br>
 							<a class="green-text"><b>Moderator, Mi Community</b></a>
 						</div>
-					</div><i>Answer and help Mi Fans to solve their problems</i>
+					</div>
+					<i>Answer and help Mi Fans to solve their problems</i> 
 				</div>
 			</div>
 			<div class="col s12 hide-on-large-only">
-				<div class="card-panel grey lighten-5 z-depth-1">
-					<div class="row valign-wrapper">
-						<div class="col s4"><img class="circle responsive-img" src="img/Google_Translate_Icon.png"></div>
+        		<div class="card-panel grey lighten-5 z-depth-1">
+					<div class="row valign-wrapper">	
+						<div class="col s4">
+							<img src="img/Google_Translate_Icon.PNG" class="circle responsive-img">
+						</div>
 						<div class="col s11">
 							<a class="green-text"><b>Contributor, Google Translate Community</b></a>
 						</div>
-					</div><i>100 Club Badges For 100 contributions in <b>English to Gujarati translate</b> and contribute in <b>Gujarati to English translate.</b></i>
+					</div>
+					<i>100 Club Badges For 100 contributions in <b>English to Gujarati translate</b> and contribute in <b>Gujarati to English translate.</b></i> 
 				</div>
 			</div>
 			<div class="col s12 hide-on-large-only">
-				<div class="card-panel grey lighten-5 z-depth-1">
-					<div class="row valign-wrapper">
-						<div class="col s4"><img class="circle responsive-img" src="img/Google_Local_Guide.jpg"></div>
-						<div class="col s11">
-							<br>
+        		<div class="card-panel grey lighten-5 z-depth-1">
+					<div class="row valign-wrapper">	
+						<div class="col s4">
+							<img src="img/Google_Local_Guide.JPG" class="circle responsive-img">
+						</div>
+						<div class="col s11"><br>
 							<a class="green-text"><b>Local guides, Google Maps</b></a>
 						</div>
-					</div><i>Contributing Answer, Correction, Update content to Google Maps</i>
+					</div>
+					<i>Contributing Answer, Correction, Update content to Google Maps</i>  
 				</div>
 			</div>
 			<div class="row">
 				<div class="col s6 hide-on-med-and-down">
 					<div class="card-panel grey lighten-5 z-depth-1">
-						<div class="row valign-wrapper">
-							<div class="col s3"><br>
-							<img alt="" class="circle responsive-img" src="img/micommunity.jpg"></div>
-							<div class="col s10">
-								<br>
-								<a class="green-text"><b>Moderator, Mi Community</b></a>
-								<p><i>Answer and help Mi Fans to solve their problems</i></p>
-							</div>
-						</div>
+					  <div class="row valign-wrapper">
+					    <div class="col s3">
+					  		<br>
+					      	<img src="img/micommunity.JPG" alt="" class="circle responsive-img">
+					    </div>
+					    <div class="col s10">
+					  		<br>
+							<a class="green-text"><b>Moderator, Mi Community</b></a>
+							<p> 
+								<i>Answer and help Mi Fans to solve their problems</i> 
+							</p>
+					    </div>
+					  </div>
 					</div>
 				</div>
 				<div class="col s6 hide-on-med-and-down">
 					<div class="card-panel grey lighten-5 z-depth-1">
-						<div class="row valign-wrapper">
-							<div class="col s3"><br>
-							<img alt="" class="circle responsive-img" src="img/Google_Translate_Icon.PNG"></div>
-							<div class="col s11">
-								<br>
-								<a class="green-text"><b>Contributor, Google Translate Community</b></a>
-								<p><i>100 Club Badges For 100 contributions in <b>English to Gujarati translate</b> and contribute in <b>Gujarati to English translate.</b></i></p>
-							</div>
-						</div>
+					  <div class="row valign-wrapper">
+					    <div class="col s3">
+					  		<br>
+					      	<img src="img/Google_Translate_Icon.PNG" alt="" class="circle responsive-img">
+					    </div>
+					    <div class="col s11">
+					  		<br>
+							<a class="green-text"><b>Contributor, Google Translate Community</b></a>
+							<p> 
+								<i>100 Club Badges For 100 contributions in <b>English to Gujarati translate</b> and contribute in <b>Gujarati to English translate.</b></i> 
+							</p>
+					    </div>
+					  </div>
 					</div>
 				</div>
 				<div class="col s6 hide-on-med-and-down">
 					<div class="card-panel grey lighten-5 z-depth-1">
-						<div class="row valign-wrapper">
-							<div class="col s3"><br>
-							<img alt="" class="circle responsive-img" src="img/Google_Local_Guide.JPG"></div>
-							<div class="col s10">
-								<br>
-								<a class="green-text"><b>Local guides, Google Maps</b></a>
-								<p><i>Contributing Answer, Correction, Update content to Google Maps</i></p>
-							</div>
-						</div>
+					  <div class="row valign-wrapper">
+					    <div class="col s3">
+					  		<br>
+					      	<img src="img/Google_Local_Guide.JPG" alt="" class="circle responsive-img">
+					    </div>
+					    <div class="col s10">
+					  		<br>
+							<a class="green-text"><b>Local guides, Google Maps</b></a>
+							<p> 
+								<i>Contributing Answer, Correction, Update content to Google Maps</i> 
+							</p>
+					    </div>
+					  </div>
 					</div>
 				</div>
 			</div>
-		</div><br>
-	</div><!--  contact -->
+		</div>
+		<br>
+	</div>  
+    
+    <!--  contact -->
 	<div class="block grey darken-4">
 		<nav class="teal lighten-1" id="contact">
 			<div class="nav-wrapper container">
-				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-send"></i> Contact</a> <a class="brand-logo white-text hide-on-large-only">Contact</a>
+				<a class="brand-logo white-text hide-on-med-and-down"><i aria-hidden="true" class="fa fa-send"></i> Contact</a>
+				<a class="brand-logo white-text hide-on-large-only"> Contact</a>
 			</div>
 		</nav>
-		<div class="container white-text" id="contact1">
-			<br>
+		<div class="container white-text" id="contact1"><br>
 			<h5 class="center hide-on-med-and-down">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, I will reply as soon as possible and don't<br>
-			be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!</h5>
-			<h5 class="center hide-on-large-only">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch,<br>
-			I will reply as soon as possible and don't be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font><br>
-			I look forward to <font color="#00AC92"><i>hearing</i></font> from you!</h5><br>
+			be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
+            </h5>
+			<h5 class="center hide-on-large-only">Use the <font color="#00AC92"><i>contact form</i></font> below to get in touch, <br>I will reply as soon as possible and don't
+			be afraid to just send me a <font color="#00AC92"><b>"Hi!".</b></font><br> I look forward to <font color="#00AC92"><i>hearing</i></font> from you!
+            </h5><br>
 			<div class="row">
-				<div class="col s12 m3 blue-grey darken-4">
-					<center>
-						<br>
-						<img class="circle responsive-img z-depth-4" src="img/vatsal.jpg">
-						<h5><font color="#00AC92">Vatsal S. Vala</font></h5>
-						<div class="divider teal"></div>
-						<table class="centered white-text">
-							<tbody>
-								<tr>
-									<td><font color="#00AC92"><i class="material-icons">web</i></font></td>
-									<td><font color="#00AC92">Web developer</font></td>
-								</tr>
-								<tr>
-									<td><font color="#00AC92"><i class="material-icons">place</i></font></td>
-									<td><font color="#00AC92">Vadodara, Gujarat, India</font></td>
-								</tr>
-							</tbody>
-						</table>
+				<div class="col s12 m3 blue-grey darken-4">                    
+					<center><br>
+                    <img class="circle responsive-img z-depth-4" src="img/vatsal.jpg">
+                    <h5><font color="#00AC92">Vatsal S. Vala</font></h5>
+                    <div class="divider teal"></div>
+                    <table class="centered white-text">
+                        <tbody>
+                            <tr>
+                                <td><font color="#00AC92"><i class="material-icons">web</i></font></td>
+                                <td><font color="#00AC92">Web developer</font></td>
+                            </tr>
+                            <tr>
+                                <td><font color="#00AC92"><i class="material-icons">place</i></font></td>
+                                <td><font color="#00AC92">Vadodara, Gujarat, India</font></td>
+                            </tr>
+                        </tbody>
+                    </table>
 					</center>
-				</div>
+                </div>
 				<div class="col s12 m4">
 					<blockquote>
 						Do you need a website, have a question or comment?<br>
@@ -463,20 +524,24 @@
 					</blockquote>
 					<blockquote>
 						<h5>My Networks:</h5>
-						<h6><a class="btn-floating btn tooltipped waves-effect waves-light blue darken-3" data-delay="50" data-position="bottom" data-tooltip="Facebook" href="https://www.facebook.com/vatsalsvala" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light red darken-1" data-delay="50" data-position="bottom" data-tooltip="YouTUBE" href="https://youtube.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-youtube"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light blue" data-delay="50" data-position="bottom" data-tooltip="linkedin" href="https://in.linkedin.com/in/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a> <a class="btn-floating btn tooltipped waves-effect waves-light black" data-delay="50" data-position="bottom" data-tooltip="500px" href="https://500px.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-500px"></i></a></h6>
-					</blockquote><!--  feedback **** -->
-					<!-- Modal Trigger -->
-					<h5><a class="brand-logo white-text center" href="#modal1">
-					<div class="card-panel teal">
-						Please rate for this site
-					</div></a></h5><!-- Modal Structure -->
-					<div class="center modal modal-fixed-footer" id="modal1" style="width:690px;height:460px;">
-						<iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:100%;height:450px;border:0;">Loading poll...</iframe>
-					</div>
-					<h5><a class="brand-logo white-text center hide-on-med-and-down" href="#about">
-					<div class="card-panel red lighten-2">
-						Top
-					</div></a></h5>
+						<h6>
+							<a class="btn-floating btn tooltipped waves-effect waves-light blue darken-3" data-delay="50" data-position="bottom" data-tooltip="Facebook" href="https://www.facebook.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-facebook"></i></a> 
+
+							<a class="btn-floating btn tooltipped waves-effect waves-light red darken-1" data-delay="50" data-position="bottom" data-tooltip="YouTUBE" href="https://youtube.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-youtube"></i></a> 
+
+							<a class="btn-floating btn tooltipped waves-effect waves-light blue" data-delay="50" data-position="bottom" data-tooltip="linkedin" href="https://in.linkedin.com/in/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-linkedin"></i></a> 
+
+							<a class="btn-floating btn tooltipped waves-effect waves-light black" data-delay="50" data-position="bottom" data-tooltip="500px" href="https://500px.com/vatsalvala" target="_blank"><i aria-hidden="true" class="fa fa-500px"></i></a>
+						</h6>
+					</blockquote>      
+                    <!--  feedback **** -->
+                    <!-- Modal Trigger -->
+				    <h5><a class="brand-logo white-text center" href="#modal1"><div class="card-panel teal">Please rate for this site</div></a></h5>
+                        <!-- Modal Structure -->
+                        <div class="center modal modal-fixed-footer" id="modal1" style="width:690px;height:460px;">
+                            <iframe src="http://www.strawpoll.me/embed_1/12152529" style="width:100%;height:450px;border:0;">Loading poll...</iframe>
+                        </div>           
+				    <h5><a class="brand-logo white-text center  hide-on-med-and-down" href="#about"><div class="card-panel red lighten-2">Top</div></a></h5>
 				</div>
 				<div class="col s12 m5 blue-grey darken-4">
 					<center>
@@ -484,670 +549,249 @@
 					</center>
 					<div class="divider teal"></div>
 					<form action="http://formspree.io/vala1992@gmail.com" method="post">
-						<input name="_subject" type="hidden" value="New submission ~ vatsalvala.in"> <input name="_next" type="hidden" value="http://www.vatsalvala.in/thankyou.html">
 						<div class="row teal-text">
 							<div class="input-field col s12">
-								<input class="validate" id="contact_name" name="name" required="" type="text" value=""> <label for="contact_name">Your name</label>
-							</div>
+								<input class="validate" id="contact_name" name="name" required="" type="textvalue=""> <label for="contact_name">Your name</label>
+							</div>	
 							<div class="input-field col s12">
-								<input class="validate" id="contact_email" name="email" required="" type="email" value=""> <label data-error="enter valid mail id" for="email">Email</label>
-							</div>
+								<input class="validate" id="contact_email" name="email" required="" type="emailvalue=""> <label data-error="enter valid mail id" for="email">Email</label>
+							</div>	
 							<div class="input-field col s6">
-								<select name="country" required="">
-									<option selected value="India (+91)">
-										India (+91)
-									</option>
-									<option value="Algeria (+213)">
-										Algeria (+213)
-									</option>
-									<option value="Andorra (+376)">
-										Andorra (+376)
-									</option>
-									<option value="Angola (+244)">
-										Angola (+244)
-									</option>
-									<option value="Anguilla (+1264)">
-										Anguilla (+1264)
-									</option>
-									<option value="Antigua &amp; Barbuda (+1268)">
-										Antigua &amp; Barbuda (+1268)
-									</option>
-									<option value="Argentina (+54)">
-										Argentina (+54)
-									</option>
-									<option value="Armenia (+374)">
-										Armenia (+374)
-									</option>
-									<option value="Aruba (+297)">
-										Aruba (+297)
-									</option>
-									<option value="Australia (+61)">
-										Australia (+61)
-									</option>
-									<option value="Austria (+43)">
-										Austria (+43)
-									</option>
-									<option value="Azerbaijan (+994)">
-										Azerbaijan (+994)
-									</option>
-									<option value="Bahamas (+1242)">
-										Bahamas (+1242)
-									</option>
-									<option value="Bahrain (+973)">
-										Bahrain (+973)
-									</option>
-									<option value="880">
-										Bangladesh (+880)
-									</option>
-									<option value="1246">
-										Barbados (+1246)
-									</option>
-									<option value="375">
-										Belarus (+375)
-									</option>
-									<option value="32">
-										Belgium (+32)
-									</option>
-									<option value="501">
-										Belize (+501)
-									</option>
-									<option value="229">
-										Benin (+229)
-									</option>
-									<option value="1441">
-										Bermuda (+1441)
-									</option>
-									<option value="975">
-										Bhutan (+975)
-									</option>
-									<option value="591">
-										Bolivia (+591)
-									</option>
-									<option value="387">
-										Bosnia Herzegovina (+387)
-									</option>
-									<option value="267">
-										Botswana (+267)
-									</option>
-									<option value="55">
-										Brazil (+55)
-									</option>
-									<option value="673">
-										Brunei (+673)
-									</option>
-									<option value="359">
-										Bulgaria (+359)
-									</option>
-									<option value="226">
-										Burkina Faso (+226)
-									</option>
-									<option value="257">
-										Burundi (+257)
-									</option>
-									<option value="855">
-										Cambodia (+855)
-									</option>
-									<option value="237">
-										Cameroon (+237)
-									</option>
-									<option value="1">
-										Canada (+1)
-									</option>
-									<option value="238">
-										Cape Verde Islands (+238)
-									</option>
-									<option value="1345">
-										Cayman Islands (+1345)
-									</option>
-									<option value="236">
-										Central African Republic (+236)
-									</option>
-									<option value="56">
-										Chile (+56)
-									</option>
-									<option value="86">
-										China (+86)
-									</option>
-									<option value="57">
-										Colombia (+57)
-									</option>
-									<option value="269">
-										Comoros (+269)
-									</option>
-									<option value="242">
-										Congo (+242)
-									</option>
-									<option value="682">
-										Cook Islands (+682)
-									</option>
-									<option value="506">
-										Costa Rica (+506)
-									</option>
-									<option value="385">
-										Croatia (+385)
-									</option>
-									<option value="53">
-										Cuba (+53)
-									</option>
-									<option value="90392">
-										Cyprus North (+90392)
-									</option>
-									<option value="357">
-										Cyprus South (+357)
-									</option>
-									<option value="42">
-										Czech Republic (+42)
-									</option>
-									<option value="45">
-										Denmark (+45)
-									</option>
-									<option value="253">
-										Djibouti (+253)
-									</option>
-									<option value="1809">
-										Dominica (+1809)
-									</option>
-									<option value="1809">
-										Dominican Republic (+1809)
-									</option>
-									<option value="593">
-										Ecuador (+593)
-									</option>
-									<option value="20">
-										Egypt (+20)
-									</option>
-									<option value="503">
-										El Salvador (+503)
-									</option>
-									<option value="240">
-										Equatorial Guinea (+240)
-									</option>
-									<option value="291">
-										Eritrea (+291)
-									</option>
-									<option value="372">
-										Estonia (+372)
-									</option>
-									<option value="251">
-										Ethiopia (+251)
-									</option>
-									<option value="500">
-										Falkland Islands (+500)
-									</option>
-									<option value="298">
-										Faroe Islands (+298)
-									</option>
-									<option value="679">
-										Fiji (+679)
-									</option>
-									<option value="358">
-										Finland (+358)
-									</option>
-									<option value="33">
-										France (+33)
-									</option>
-									<option value="594">
-										French Guiana (+594)
-									</option>
-									<option value="689">
-										French Polynesia (+689)
-									</option>
-									<option value="241">
-										Gabon (+241)
-									</option>
-									<option value="220">
-										Gambia (+220)
-									</option>
-									<option value="7880">
-										Georgia (+7880)
-									</option>
-									<option value="49">
-										Germany (+49)
-									</option>
-									<option value="233">
-										Ghana (+233)
-									</option>
-									<option value="350">
-										Gibraltar (+350)
-									</option>
-									<option value="30">
-										Greece (+30)
-									</option>
-									<option value="299">
-										Greenland (+299)
-									</option>
-									<option value="1473">
-										Grenada (+1473)
-									</option>
-									<option value="590">
-										Guadeloupe (+590)
-									</option>
-									<option value="671">
-										Guam (+671)
-									</option>
-									<option value="502">
-										Guatemala (+502)
-									</option>
-									<option value="224">
-										Guinea (+224)
-									</option>
-									<option value="245">
-										Guinea - Bissau (+245)
-									</option>
-									<option value="592">
-										Guyana (+592)
-									</option>
-									<option value="509">
-										Haiti (+509)
-									</option>
-									<option value="504">
-										Honduras (+504)
-									</option>
-									<option value="852">
-										Hong Kong (+852)
-									</option>
-									<option value="36">
-										Hungary (+36)
-									</option>
-									<option value="354">
-										Iceland (+354)
-									</option>
-									<option value="62">
-										Indonesia (+62)
-									</option>
-									<option value="98">
-										Iran (+98)
-									</option>
-									<option value="964">
-										Iraq (+964)
-									</option>
-									<option value="353">
-										Ireland (+353)
-									</option>
-									<option value="972">
-										Israel (+972)
-									</option>
-									<option value="39">
-										Italy (+39)
-									</option>
-									<option value="1876">
-										Jamaica (+1876)
-									</option>
-									<option value="81">
-										Japan (+81)
-									</option>
-									<option value="962">
-										Jordan (+962)
-									</option>
-									<option value="7">
-										Kazakhstan (+7)
-									</option>
-									<option value="254">
-										Kenya (+254)
-									</option>
-									<option value="686">
-										Kiribati (+686)
-									</option>
-									<option value="850">
-										Korea North (+850)
-									</option>
-									<option value="82">
-										Korea South (+82)
-									</option>
-									<option value="965">
-										Kuwait (+965)
-									</option>
-									<option value="996">
-										Kyrgyzstan (+996)
-									</option>
-									<option value="856">
-										Laos (+856)
-									</option>
-									<option value="371">
-										Latvia (+371)
-									</option>
-									<option value="961">
-										Lebanon (+961)
-									</option>
-									<option value="266">
-										Lesotho (+266)
-									</option>
-									<option value="231">
-										Liberia (+231)
-									</option>
-									<option value="218">
-										Libya (+218)
-									</option>
-									<option value="417">
-										Liechtenstein (+417)
-									</option>
-									<option value="370">
-										Lithuania (+370)
-									</option>
-									<option value="352">
-										Luxembourg (+352)
-									</option>
-									<option value="853">
-										Macao (+853)
-									</option>
-									<option value="389">
-										Macedonia (+389)
-									</option>
-									<option value="261">
-										Madagascar (+261)
-									</option>
-									<option value="265">
-										Malawi (+265)
-									</option>
-									<option value="60">
-										Malaysia (+60)
-									</option>
-									<option value="960">
-										Maldives (+960)
-									</option>
-									<option value="223">
-										Mali (+223)
-									</option>
-									<option value="356">
-										Malta (+356)
-									</option>
-									<option value="692">
-										Marshall Islands (+692)
-									</option>
-									<option value="596">
-										Martinique (+596)
-									</option>
-									<option value="222">
-										Mauritania (+222)
-									</option>
-									<option value="269">
-										Mayotte (+269)
-									</option>
-									<option value="52">
-										Mexico (+52)
-									</option>
-									<option value="691">
-										Micronesia (+691)
-									</option>
-									<option value="373">
-										Moldova (+373)
-									</option>
-									<option value="377">
-										Monaco (+377)
-									</option>
-									<option value="976">
-										Mongolia (+976)
-									</option>
-									<option value="1664">
-										Montserrat (+1664)
-									</option>
-									<option value="212">
-										Morocco (+212)
-									</option>
-									<option value="258">
-										Mozambique (+258)
-									</option>
-									<option value="95">
-										Myanmar (+95)
-									</option>
-									<option value="264">
-										Namibia (+264)
-									</option>
-									<option value="674">
-										Nauru (+674)
-									</option>
-									<option value="977">
-										Nepal (+977)
-									</option>
-									<option value="31">
-										Netherlands (+31)
-									</option>
-									<option value="687">
-										New Caledonia (+687)
-									</option>
-									<option value="64">
-										New Zealand (+64)
-									</option>
-									<option value="505">
-										Nicaragua (+505)
-									</option>
-									<option value="227">
-										Niger (+227)
-									</option>
-									<option value="234">
-										Nigeria (+234)
-									</option>
-									<option value="683">
-										Niue (+683)
-									</option>
-									<option value="672">
-										Norfolk Islands (+672)
-									</option>
-									<option value="670">
-										Northern Marianas (+670)
-									</option>
-									<option value="47">
-										Norway (+47)
-									</option>
-									<option value="968">
-										Oman (+968)
-									</option>
-									<option value="680">
-										Palau (+680)
-									</option>
-									<option value="507">
-										Panama (+507)
-									</option>
-									<option value="675">
-										Papua New Guinea (+675)
-									</option>
-									<option value="595">
-										Paraguay (+595)
-									</option>
-									<option value="51">
-										Peru (+51)
-									</option>
-									<option value="63">
-										Philippines (+63)
-									</option>
-									<option value="48">
-										Poland (+48)
-									</option>
-									<option value="351">
-										Portugal (+351)
-									</option>
-									<option value="1787">
-										Puerto Rico (+1787)
-									</option>
-									<option value="974">
-										Qatar (+974)
-									</option>
-									<option value="262">
-										Reunion (+262)
-									</option>
-									<option value="40">
-										Romania (+40)
-									</option>
-									<option value="7">
-										Russia (+7)
-									</option>
-									<option value="250">
-										Rwanda (+250)
-									</option>
-									<option value="378">
-										San Marino (+378)
-									</option>
-									<option value="239">
-										Sao Tome &amp; Principe (+239)
-									</option>
-									<option value="966">
-										Saudi Arabia (+966)
-									</option>
-									<option value="221">
-										Senegal (+221)
-									</option>
-									<option value="381">
-										Serbia (+381)
-									</option>
-									<option value="248">
-										Seychelles (+248)
-									</option>
-									<option value="232">
-										Sierra Leone (+232)
-									</option>
-									<option value="65">
-										Singapore (+65)
-									</option>
-									<option value="421">
-										Slovak Republic (+421)
-									</option>
-									<option value="386">
-										Slovenia (+386)
-									</option>
-									<option value="677">
-										Solomon Islands (+677)
-									</option>
-									<option value="252">
-										Somalia (+252)
-									</option>
-									<option value="27">
-										South Africa (+27)
-									</option>
-									<option value="34">
-										Spain (+34)
-									</option>
-									<option value="94">
-										Sri Lanka (+94)
-									</option>
-									<option value="290">
-										St. Helena (+290)
-									</option>
-									<option value="1869">
-										St. Kitts (+1869)
-									</option>
-									<option value="1758">
-										St. Lucia (+1758)
-									</option>
-									<option value="249">
-										Sudan (+249)
-									</option>
-									<option value="597">
-										Suriname (+597)
-									</option>
-									<option value="268">
-										Swaziland (+268)
-									</option>
-									<option value="46">
-										Sweden (+46)
-									</option>
-									<option value="41">
-										Switzerland (+41)
-									</option>
-									<option value="963">
-										Syria (+963)
-									</option>
-									<option value="886">
-										Taiwan (+886)
-									</option>
-									<option value="7">
-										Tajikstan (+7)
-									</option>
-									<option value="66">
-										Thailand (+66)
-									</option>
-									<option value="228">
-										Togo (+228)
-									</option>
-									<option value="676">
-										Tonga (+676)
-									</option>
-									<option value="1868">
-										Trinidad &amp; Tobago (+1868)
-									</option>
-									<option value="216">
-										Tunisia (+216)
-									</option>
-									<option value="90">
-										Turkey (+90)
-									</option>
-									<option value="7">
-										Turkmenistan (+7)
-									</option>
-									<option value="993">
-										Turkmenistan (+993)
-									</option>
-									<option value="1649">
-										Turks &amp; Caicos Islands (+1649)
-									</option>
-									<option value="688">
-										Tuvalu (+688)
-									</option>
-									<option value="256">
-										Uganda (+256)
-									</option><!-- <option GBvalue="44">UK (+44)</option> -->
-									<option value="380">
-										Ukraine (+380)
-									</option>
-									<option value="971">
-										United Arab Emirates (+971)
-									</option>
-									<option value="598">
-										Uruguay (+598)
-									</option><!-- <option USvalue="1">USA (+1)</option> -->
-									<option value="7">
-										Uzbekistan (+7)
-									</option>
-									<option value="678">
-										Vanuatu (+678)
-									</option>
-									<option value="379">
-										Vatican City (+379)
-									</option>
-									<option value="58">
-										Venezuela (+58)
-									</option>
-									<option value="84">
-										Vietnam (+84)
-									</option>
-									<option value="84">
-										Virgin Islands - British (+1284)
-									</option>
-									<option value="84">
-										Virgin Islands - US (+1340)
-									</option>
-									<option value="681">
-										Wallis &amp; Futuna (+681)
-									</option>
-									<option value="969">
-										Yemen (North)(+969)
-									</option>
-									<option value="967">
-										Yemen (South)(+967)
-									</option>
-									<option value="260">
-										Zambia (+260)
-									</option>
-									<option value="263">
-										Zimbabwe (+263)
-									</option>
-								</select> <label>Country</label>
-							</div>
+								<select>
+									<option value="91" selected>India (+91)</option>
+									<option value="213">Algeria (+213)</option>
+									<option value="376">Andorra (+376)</option>
+									<option value="244">Angola (+244)</option>
+									<option value="1264">Anguilla (+1264)</option>
+									<option value="1268">Antigua &amp; Barbuda (+1268)</option>
+									<option value="54">Argentina (+54)</option>
+									<option value="374">Armenia (+374)</option>
+									<option value="297">Aruba (+297)</option>
+									<option value="61">Australia (+61)</option>
+									<option value="43">Austria (+43)</option>
+									<option value="994">Azerbaijan (+994)</option>
+									<option value="1242">Bahamas (+1242)</option>
+									<option value="973">Bahrain (+973)</option>
+									<option value="880">Bangladesh (+880)</option>
+									<option value="1246">Barbados (+1246)</option>
+									<option value="375">Belarus (+375)</option>
+									<option value="32">Belgium (+32)</option>
+									<option value="501">Belize (+501)</option>
+									<option value="229">Benin (+229)</option>
+									<option value="1441">Bermuda (+1441)</option>
+									<option value="975">Bhutan (+975)</option>
+									<option value="591">Bolivia (+591)</option>
+									<option value="387">Bosnia Herzegovina (+387)</option>
+									<option value="267">Botswana (+267)</option>
+									<option value="55">Brazil (+55)</option>
+									<option value="673">Brunei (+673)</option>
+									<option value="359">Bulgaria (+359)</option>
+									<option value="226">Burkina Faso (+226)</option>
+									<option value="257">Burundi (+257)</option>
+									<option value="855">Cambodia (+855)</option>
+									<option value="237">Cameroon (+237)</option>
+									<option value="1">Canada (+1)</option>
+									<option value="238">Cape Verde Islands (+238)</option>
+									<option value="1345">Cayman Islands (+1345)</option>
+									<option value="236">Central African Republic (+236)</option>
+									<option value="56">Chile (+56)</option>
+									<option value="86">China (+86)</option>
+									<option value="57">Colombia (+57)</option>
+									<option value="269">Comoros (+269)</option>
+									<option value="242">Congo (+242)</option>
+									<option value="682">Cook Islands (+682)</option>
+									<option value="506">Costa Rica (+506)</option>
+									<option value="385">Croatia (+385)</option>
+									<option value="53">Cuba (+53)</option>
+									<option value="90392">Cyprus North (+90392)</option>
+									<option value="357">Cyprus South (+357)</option>
+									<option value="42">Czech Republic (+42)</option>
+									<option value="45">Denmark (+45)</option>
+									<option value="253">Djibouti (+253)</option>
+									<option value="1809">Dominica (+1809)</option>
+									<option value="1809">Dominican Republic (+1809)</option>
+									<option value="593">Ecuador (+593)</option>
+									<option value="20">Egypt (+20)</option>
+									<option value="503">El Salvador (+503)</option>
+									<option value="240">Equatorial Guinea (+240)</option>
+									<option value="291">Eritrea (+291)</option>
+									<option value="372">Estonia (+372)</option>
+									<option value="251">Ethiopia (+251)</option>
+									<option value="500">Falkland Islands (+500)</option>
+									<option value="298">Faroe Islands (+298)</option>
+									<option value="679">Fiji (+679)</option>
+									<option value="358">Finland (+358)</option>
+									<option value="33">France (+33)</option>
+									<option value="594">French Guiana (+594)</option>
+									<option value="689">French Polynesia (+689)</option>
+									<option value="241">Gabon (+241)</option>
+									<option value="220">Gambia (+220)</option>
+									<option value="7880">Georgia (+7880)</option>
+									<option value="49">Germany (+49)</option>
+									<option value="233">Ghana (+233)</option>
+									<option value="350">Gibraltar (+350)</option>
+									<option value="30">Greece (+30)</option>
+									<option value="299">Greenland (+299)</option>
+									<option value="1473">Grenada (+1473)</option>
+									<option value="590">Guadeloupe (+590)</option>
+									<option value="671">Guam (+671)</option>
+									<option value="502">Guatemala (+502)</option>
+									<option value="224">Guinea (+224)</option>
+									<option GWvalue="245">Guinea - Bissau (+245)</option>
+									<option GYvalue="592">Guyana (+592)</option>
+									<option HTvalue="509">Haiti (+509)</option>
+									<option HNvalue="504">Honduras (+504)</option>
+									<option HKvalue="852">Hong Kong (+852)</option>
+									<option HUvalue="36">Hungary (+36)</option>
+									<option ISvalue="354">Iceland (+354)</option>
+									<option IDvalue="62">Indonesia (+62)</option>
+									<option IRvalue="98">Iran (+98)</option>
+									<option IQvalue="964">Iraq (+964)</option>
+									<option IEvalue="353">Ireland (+353)</option>
+									<option ILvalue="972">Israel (+972)</option>
+									<option ITvalue="39">Italy (+39)</option>
+									<option JMvalue="1876">Jamaica (+1876)</option>
+									<option JPvalue="81">Japan (+81)</option>
+									<option JOvalue="962">Jordan (+962)</option>
+									<option KZvalue="7">Kazakhstan (+7)</option>
+									<option KEvalue="254">Kenya (+254)</option>
+									<option KIvalue="686">Kiribati (+686)</option>
+									<option KPvalue="850">Korea North (+850)</option>
+									<option KRvalue="82">Korea South (+82)</option>
+									<option KWvalue="965">Kuwait (+965)</option>
+									<option KGvalue="996">Kyrgyzstan (+996)</option>
+									<option LAvalue="856">Laos (+856)</option>
+									<option LVvalue="371">Latvia (+371)</option>
+									<option LBvalue="961">Lebanon (+961)</option>
+									<option LSvalue="266">Lesotho (+266)</option>
+									<option LRvalue="231">Liberia (+231)</option>
+									<option LYvalue="218">Libya (+218)</option>
+									<option LIvalue="417">Liechtenstein (+417)</option>
+									<option LTvalue="370">Lithuania (+370)</option>
+									<option LUvalue="352">Luxembourg (+352)</option>
+									<option MOvalue="853">Macao (+853)</option>
+									<option MKvalue="389">Macedonia (+389)</option>
+									<option MGvalue="261">Madagascar (+261)</option>
+									<option MWvalue="265">Malawi (+265)</option>
+									<option MYvalue="60">Malaysia (+60)</option>
+									<option MVvalue="960">Maldives (+960)</option>
+									<option MLvalue="223">Mali (+223)</option>
+									<option MTvalue="356">Malta (+356)</option>
+									<option MHvalue="692">Marshall Islands (+692)</option>
+									<option MQvalue="596">Martinique (+596)</option>
+									<option MRvalue="222">Mauritania (+222)</option>
+									<option YTvalue="269">Mayotte (+269)</option>
+									<option MXvalue="52">Mexico (+52)</option>
+									<option FMvalue="691">Micronesia (+691)</option>
+									<option MDvalue="373">Moldova (+373)</option>
+									<option MCvalue="377">Monaco (+377)</option>
+									<option MNvalue="976">Mongolia (+976)</option>
+									<option MSvalue="1664">Montserrat (+1664)</option>
+									<option MAvalue="212">Morocco (+212)</option>
+									<option MZvalue="258">Mozambique (+258)</option>
+									<option MNvalue="95">Myanmar (+95)</option>
+									<option NAvalue="264">Namibia (+264)</option>
+									<option NRvalue="674">Nauru (+674)</option>
+									<option NPvalue="977">Nepal (+977)</option>
+									<option NLvalue="31">Netherlands (+31)</option>
+									<option NCvalue="687">New Caledonia (+687)</option>
+									<option NZvalue="64">New Zealand (+64)</option>
+									<option NIvalue="505">Nicaragua (+505)</option>
+									<option NEvalue="227">Niger (+227)</option>
+									<option NGvalue="234">Nigeria (+234)</option>
+									<option NUvalue="683">Niue (+683)</option>
+									<option NFvalue="672">Norfolk Islands (+672)</option>
+									<option NPvalue="670">Northern Marianas (+670)</option>
+									<option NOvalue="47">Norway (+47)</option>
+									<option OMvalue="968">Oman (+968)</option>
+									<option PWvalue="680">Palau (+680)</option>
+									<option PAvalue="507">Panama (+507)</option>
+									<option PGvalue="675">Papua New Guinea (+675)</option>
+									<option PYvalue="595">Paraguay (+595)</option>
+									<option PEvalue="51">Peru (+51)</option>
+									<option PHvalue="63">Philippines (+63)</option>
+									<option PLvalue="48">Poland (+48)</option>
+									<option PTvalue="351">Portugal (+351)</option>
+									<option PRvalue="1787">Puerto Rico (+1787)</option>
+									<option QAvalue="974">Qatar (+974)</option>
+									<option REvalue="262">Reunion (+262)</option>
+									<option ROvalue="40">Romania (+40)</option>
+									<option RUvalue="7">Russia (+7)</option>
+									<option RWvalue="250">Rwanda (+250)</option>
+									<option SMvalue="378">San Marino (+378)</option>
+									<option STvalue="239">Sao Tome &amp; Principe (+239)</option>
+									<option SAvalue="966">Saudi Arabia (+966)</option>
+									<option SNvalue="221">Senegal (+221)</option>
+									<option CSvalue="381">Serbia (+381)</option>
+									<option SCvalue="248">Seychelles (+248)</option>
+									<option SLvalue="232">Sierra Leone (+232)</option>
+									<option SGvalue="65">Singapore (+65)</option>
+									<option SKvalue="421">Slovak Republic (+421)</option>
+									<option SIvalue="386">Slovenia (+386)</option>
+									<option SBvalue="677">Solomon Islands (+677)</option>
+									<option SOvalue="252">Somalia (+252)</option>
+									<option ZAvalue="27">South Africa (+27)</option>
+									<option ESvalue="34">Spain (+34)</option>
+									<option LKvalue="94">Sri Lanka (+94)</option>
+									<option SHvalue="290">St. Helena (+290)</option>
+									<option KNvalue="1869">St. Kitts (+1869)</option>
+									<option SCvalue="1758">St. Lucia (+1758)</option>
+									<option SDvalue="249">Sudan (+249)</option>
+									<option SRvalue="597">Suriname (+597)</option>
+									<option SZvalue="268">Swaziland (+268)</option>
+									<option SEvalue="46">Sweden (+46)</option>
+									<option CHvalue="41">Switzerland (+41)</option>
+									<option SIvalue="963">Syria (+963)</option>
+									<option TWvalue="886">Taiwan (+886)</option>
+									<option TJvalue="7">Tajikstan (+7)</option>
+									<option THvalue="66">Thailand (+66)</option>
+									<option TGvalue="228">Togo (+228)</option>
+									<option TOvalue="676">Tonga (+676)</option>
+									<option TTvalue="1868">Trinidad &amp; Tobago (+1868)</option>
+									<option TNvalue="216">Tunisia (+216)</option>
+									<option TRvalue="90">Turkey (+90)</option>
+									<option TMvalue="7">Turkmenistan (+7)</option>
+									<option TMvalue="993">Turkmenistan (+993)</option>
+									<option TCvalue="1649">Turks &amp; Caicos Islands (+1649)</option>
+									<option TVvalue="688">Tuvalu (+688)</option>
+									<option UGvalue="256">Uganda (+256)</option>
+									<!-- <option GBvalue="44">UK (+44)</option> -->
+									<option UAvalue="380">Ukraine (+380)</option>
+									<option AEvalue="971">United Arab Emirates (+971)</option>
+									<option UYvalue="598">Uruguay (+598)</option>
+									<!-- <option USvalue="1">USA (+1)</option> -->
+									<option UZvalue="7">Uzbekistan (+7)</option>
+									<option VUvalue="678">Vanuatu (+678)</option>
+									<option VAvalue="379">Vatican City (+379)</option>
+									<option VEvalue="58">Venezuela (+58)</option>
+									<option VNvalue="84">Vietnam (+84)</option>
+									<option VGvalue="84">Virgin Islands - British (+1284)</option>
+									<option VIvalue="84">Virgin Islands - US (+1340)</option>
+									<option WFvalue="681">Wallis &amp; Futuna (+681)</option>
+									<option YEvalue="969">Yemen (North)(+969)</option>
+									<option YEvalue="967">Yemen (South)(+967)</option>
+									<option ZMvalue="260">Zambia (+260)</option>
+									<option ZWvalue="263">Zimbabwe (+263)</option>
+								</select>
+								<label>Country</label>
+							</div>					
 							<div class="input-field col s6">
-								<input class="validate" id="contact_mobile" name="mobile" required="" type="number" value=""> <label data-error="Enter 10 digit Mobile Number" for="icon_telephone">Mobile Number</label>
+								<input class="validate" id="contact_mobile" name="mobile" required="" type="numbervalue=""> <label data-error="Enter 10 digit Mobile Number" for="icon_telephone">Mobile Number</label>
 							</div>
 							<div class="input-field col s12">
 								<textarea class="materialize-textarea" id="contact_message" name="message" required=""></textarea> <label for="contact_message">Message</label>
 							</div>
 							<div class="col s12">
-								<button class="btn waves-effect waves-light right" type="submit" value="Send">Submit <i class="material-icons right">send</i></button>
+								<button class="btn waves-effect waves-light right" type="submitvalue="Send">Submit <i class="material-icons right">send</i></button>
 							</div>
 						</div>
 						<ul class="errorMessages"></ul>
 					</form>
 				</div>
-			</div><br>
-		</div><br>
-	</div><!--  preloader  -->
+			</div>  
+		</div>
+	</div>
+    <!--  preloader  -->
 	<div class="preloader-background hide-on-med-and-down">
 		<div class="preloader-wrapper big active">
 			<div class="spinner-layer spinner-blue">
@@ -1184,11 +828,20 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>   
+    
+    <!--  Scripts-->	 
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js">
+	</script> 
+	<script src="js/materialize.js">
+	</script> 
+	<script src="js/init.js">
+	</script> 
+    
 	<script type="text/javascript">
 	       $('#rating').likeDislike({
 	           initialValue: 0,
-	           click: function(value, l, d, event) {
+	           click: function (value, l, d, event) {
 	               var likes = $(this.element).find('.likes');
 	               var dislikes = $(this.element).find('.dislikes');
 
@@ -1202,39 +855,34 @@
 	               // });
 	           }
 	       });
-	</script> <!--  Scripts-->
-	 
-	<script src="https://code.jquery.com/jquery-2.1.1.min.js">
 	</script> 
-	<script src="js/materialize.js">
-	</script> 
-	<script src="js/init.js">
-	</script> <!-- for modal -->
-	 
+        
+    <!-- for modal -->	 
 	<script>
-	       $(document).ready(function() {
-	           // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-	           $('.modal').modal();
+	       $(document).ready(function(){
+	       // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+	       $('.modal').modal();
 	       });
-	</script> <!--  scroll on hover link: http://jsfiddle.net/VuTYx/2/ -->
-	 
+	</script> 
+    
+    <!--  scroll on hover link: http://jsfiddle.net/VuTYx/2/ -->	 
 	<script>
-	       $(document).ready(function() {
+	       $(document).ready(function () {
 	           var xH
 	           $('.komal').hover(
-	               function() {
-	                   xH = $(this).children("img").css("height");
-	                   xH = parseInt(xH);
-	                   xH = xH - 150;
-	                   xH = "-" + xH + "px";
-	                   $(this).children("img").css("top", xH);
-	               },
-	               function() {
-	                   $(this).children("img").css("top", "0px");
-	               });
+	           function () {
+	               xH = $(this).children("img").css("height");
+	               xH = parseInt(xH);
+	               xH = xH - 150;
+	               xH = "-" + xH + "px";
+	               $(this).children("img").css("top", xH);
+	           }, function () {
+	               $(this).children("img").css("top", "0px");
+	           });
 	       });
-	</script> <!--  scroll down -->
-	 
+	</script> 
+    
+    <!--  scroll down -->	 
 	<script>
 	       $(document).ready(function() {
 	           // Add smooth scrolling to all links
@@ -1256,8 +904,9 @@
 	               } // End if
 	           });
 	       });
-	</script> <!--  side nav -->
-	 
+	</script> 
+    
+    <!--  side nav -->	 
 	<script>
 	       $('.button-collapse').sideNav({
 	           menuWidth: 140, // Default is 240
@@ -1274,93 +923,78 @@
 	                   $(this).addClass("active");
 	           })
 	       });
-	</script> <!--  form contry dropdown-->
-	 
+	</script> 
+    
+    <!--  activity * card hover-->	 
 	<script>
-	       $(document).ready(function() {
-	           $('select').material_select();
-	       });
-	</script> <!--  activity * card hover-->
-	 
+	   (function ($) {
+	 $(document).ready(function() {
+
+	   $(document).on('click.card', '.card', function (e) {
+	     if ($(this).find('> .card-reveal').length) {
+	       if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
+	         // Make Reveal animate down and display none
+	         $(this).find('.card-reveal').velocity(
+	           {translateY: 0}, {
+	             duration: 225,
+	             queue: false,
+	             easing: 'easeInOutQuad',
+	             complete: function() { $(this).css({ display: 'none'}); }
+	           }
+	         );
+	         $(this).find('.card-content>span').attr('style', '');
+	       }
+	       else if ($(e.target).is($('.card .activator')) ||
+	                $(e.target).is($('.card .activator i')) ) {
+	         $(e.target).closest('.card').css('overflow', 'hidden');
+	         $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'}, {duration: 300, queue: false, easing: 'easeInOutQuad'});
+	         $(this).find('.card-content>span').attr('style', 'color: rgba(0,0,0,0) !important');
+	       }
+	     }
+
+	     $('.card-reveal').closest('.card').css('overflow', 'hidden');
+
+	   });
+
+	    // Make Reveal animate up and display when mouseenter
+	   $(document).on('mouseenter.hover-reveal','.hover-reveal', function (e){
+	     $(e.target).closest('.card').css('overflow', 'hidden');
+	     $(this).find('.card-content>span').attr('style', 'color: rgba(0,0,0,0) !important');
+	     $(this).find('.card-reveal').css({ display: 'block'})
+	       .velocity("stop", false)
+	       .velocity({translateY: '-100%'},
+	       {duration: 300,
+	        queue: false,
+	        easing: 'easeInOutQuad'});
+	   });
+
+	   // Make Reveal animate down and display none when mouseleave
+	   $(document).on('mouseleave.hover-reveal','.hover-reveal', function (e){
+	     $(this).find('.card-reveal').velocity(
+	       {translateY: 0}, {
+	         duration: 225,
+	         queue: false,
+	         easing: 'easeInOutQuad',
+	         complete: function() { $(this).css({ display: 'none'}); }
+	       }
+	     );
+	     $(this).find('.card-content>span').attr('style', '');
+	   });
+
+	 });
+	}( jQuery ));    
+	</script> 
+
+    <!--  form contry dropdown-->	
 	<script>
-	       (function($) {
-	           $(document).ready(function() {
-
-	               $(document).on('click.card', '.card', function(e) {
-	                   if ($(this).find('> .card-reveal').length) {
-	                       if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
-	                           // Make Reveal animate down and display none
-	                           $(this).find('.card-reveal').velocity({
-	                               translateY: 0
-	                           }, {
-	                               duration: 225,
-	                               queue: false,
-	                               easing: 'easeInOutQuad',
-	                               complete: function() {
-	                                   $(this).css({
-	                                       display: 'none'
-	                                   });
-	                               }
-	                           });
-	                           $(this).find('.card-content>span').attr('style', '');
-	                       } else if ($(e.target).is($('.card .activator')) ||
-	                           $(e.target).is($('.card .activator i'))) {
-	                           $(e.target).closest('.card').css('overflow', 'hidden');
-	                           $(this).find('.card-reveal').css({
-	                               display: 'block'
-	                           }).velocity("stop", false).velocity({
-	                               translateY: '-100%'
-	                           }, {
-	                               duration: 300,
-	                               queue: false,
-	                               easing: 'easeInOutQuad'
-	                           });
-	                           $(this).find('.card-content>span').attr('style', 'color: rgba(0,0,0,0) !important');
-	                       }
-	                   }
-
-	                   $('.card-reveal').closest('.card').css('overflow', 'hidden');
-
-	               });
-
-	               // Make Reveal animate up and display when mouseenter
-	               $(document).on('mouseenter.hover-reveal', '.hover-reveal', function(e) {
-	                   $(e.target).closest('.card').css('overflow', 'hidden');
-	                   $(this).find('.card-content>span').attr('style', 'color: rgba(0,0,0,0) !important');
-	                   $(this).find('.card-reveal').css({
-	                           display: 'block'
-	                       })
-	                       .velocity("stop", false)
-	                       .velocity({
-	                           translateY: '-100%'
-	                       }, {
-	                           duration: 300,
-	                           queue: false,
-	                           easing: 'easeInOutQuad'
-	                       });
-	               });
-
-	               // Make Reveal animate down and display none when mouseleave
-	               $(document).on('mouseleave.hover-reveal', '.hover-reveal', function(e) {
-	                   $(this).find('.card-reveal').velocity({
-	                       translateY: 0
-	                   }, {
-	                       duration: 225,
-	                       queue: false,
-	                       easing: 'easeInOutQuad',
-	                       complete: function() {
-	                           $(this).css({
-	                               display: 'none'
-	                           });
-	                       }
-	                   });
-	                   $(this).find('.card-content>span').attr('style', '');
-	               });
-
-	           });
-	       }(jQuery));
-	</script> <!--  form error message-->
-	 
+		$(document).ready(function() {
+			$('select').material_select();
+			$('select').material_select('destroy');
+		});
+       
+	</script>
+    
+    <!--  form error message-->	 
 	<script>
 	       var createAllErrors = function() {
 	           var form = $(this),
@@ -1402,66 +1036,66 @@
 	               }
 	           });
 	       };
-	</script> <!--  scroll fire   -->
-	 
+	</script> 
+    
+    <!--  scroll fire   -->	 
 	<script>
 	       var options = [{
-	           selector: '#activity1',
-	           offset: 0,
-	           callback: function(el) {
-	               Materialize.fadeInImage($(el));
-	               $("#call-1").velocity({
-	                   duration: 700
-	               });
-	           }
-	       }, {
-	           selector: '#design1',
-	           offset: 0,
-	           callback: function(el) {
-	               Materialize.fadeInImage($(el));
-	               $("#call-1").velocity({
-	                   duration: 700
-	               });
-	           }
-	       }, {
-	           selector: '#contact1',
-	           offset: 0,
-	           callback: function(el) {
-	               Materialize.fadeInImage($(el));
-	               $("#call-1").velocity({
-	                   duration: 700
-	               });
-	           }
-	       }, ];
+	               selector: '#activity1',
+	               offset: 0,
+	               callback: function(el) {
+	                   Materialize.fadeInImage($(el));
+	                   $("#call-1").velocity({
+	                       duration: 700
+	                   });
+	               }
+	           },
+	           {
+	               selector: '#design1',
+	               offset: 0,
+	               callback: function(el) {
+	                   Materialize.fadeInImage($(el));
+	                   $("#call-1").velocity({
+	                       duration: 700
+	                   });
+	               }
+	           },
+	           {
+	               selector: '#contact1',
+	               offset: 0,
+	               callback: function(el) {
+	                   Materialize.fadeInImage($(el));
+	                   $("#call-1").velocity({
+	                       duration: 700
+	                   });
+	               }
+	           },
+	       ];
 	       Materialize.scrollFire(options);
-	</script> <!-- preloader-->
-	 
+	</script> 
+    
+    <!-- preloader-->	 
 	<script>
-	       document.addEventListener("DOMContentLoaded", function() {
-	           $('.preloader-background').delay(1700).fadeOut('slow');
-	           $('.preloader-wrapper')
-	               .delay(1700)
-	               .fadeOut();
-	       });
-	</script> <!-- google-analytics-->
-	 
+	   document.addEventListener("DOMContentLoaded", function(){
+	       $('.preloader-background').delay(1700).fadeOut('slow');
+	       $('.preloader-wrapper')
+	           .delay(1700)
+	           .fadeOut();
+	   });
+	</script> 
+    
+    <!-- google-analytics-->	 
 	<script>
-	       (function(i, s, o, g, r, a, m) {
-	           i['GoogleAnalyticsObject'] = r;
-	           i[r] = i[r] || function() {
-	               (i[r].q = i[r].q || []).push(arguments)
-	           }, i[r].l = 1 * new Date();
-	           a = s.createElement(o),
-	               m = s.getElementsByTagName(o)[0];
-	           a.async = 1;
-	           a.src = g;
-	           m.parentNode.insertBefore(a, m)
-	       })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-	       ga('create', 'UA-55967794-4', 'auto');
-	       ga('send', 'pageview');
-	</script> <!-- Disable right click-->
-	 
+		  ga('create', 'UA-55967794-4', 'auto');
+		  ga('send', 'pageview');
+	</script>
+    
+    <!-- Disable right click-->	 
 	<script language="JavaScript">
 	       var message = "Function Disabled!";
 
