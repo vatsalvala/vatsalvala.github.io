@@ -14,6 +14,20 @@ if (typeof(jQuery) === 'undefined') {
     jQuery = $;
   }
 }
+
+function expandAll(){
+  $(".collapsible-header").addClass("active");
+  $(".collapsible").collapsible({accordion: false});
+}
+
+function collapseAll(){
+  $(".collapsible-header").removeClass(function(){
+    return "active";
+  });
+  $(".collapsible").collapsible({accordion: true});
+  $(".collapsible").collapsible({accordion: false});
+}
+
 ;/*
  * jQuery Easing v1.3 - http://gsgd.co.uk/sandbox/jquery/easing/
  *
