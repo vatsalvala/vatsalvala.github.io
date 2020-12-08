@@ -117,6 +117,7 @@
 		</nav><br>
 		<div class="parallax-container" id="activity1">
 			<div class="container">
+				<div class="row">
 					<div class="col s12 m4 black-text">
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/wordofcivilengineer.jpg"></div>
@@ -158,7 +159,8 @@
 								<p align="justify" class="black-text" style="font-size:18px">Here is some more information about this product that is only revealed once clicked on.</p>
 							</div>
 						</div>
-					</div>
+					</div>	</div>
+				<div class="row">
 					<div class="col s12 m4 black-text">
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/gsv.jpg"></div>
@@ -172,7 +174,8 @@
 								<p align="justify" class="black-text" style="font-size:18px">Learning 360 degree photography</p>
 							</div>
 						</div>
-					</div>		
+					</div>			
+				</div>
 			</div>
 		</div>
 	</div>
@@ -190,11 +193,11 @@
 						
 			<!--  civil site -->
 			<div class="row z-depth-2 white">
-				<div class="col s12 m5" style="width="100%">
+				<div class="col s12 m5">
 					<h4><a href="http://material.vatsalvala.in" target="_blank"><font color="#F57C00"><b>World of Civil Engineer</b></font></a></h4><br>
 					<h5><i>Degree Study Material <b>one place website</b><br>
 					<br>
-					Launched in 2016</i></h5>
+					Launched on 2016</i></h5>
 				</div>
 				<div class="col s12 m7 hide-on-med-and-down">
 					<span class="komal"><img height="auto" src="img/wordofcivilengineer.jpg" style="top: 0px" width="100%"></span>
@@ -908,7 +911,7 @@
 	               errorList.empty();
 
 	               // Find all invalid fields within the form.
-	               var invalidFields = form.find(":invalid").each(function(index, node) {			
+	               var invalidFields = form.find(":invalid").each(function(index, node) {
 
 	                   // Find the field's corresponding label
 	                   var label = $("label[for=" + node.id + "] "),
