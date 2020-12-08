@@ -117,7 +117,6 @@
 		</nav><br>
 		<div class="parallax-container" id="activity1">
 			<div class="container">
-				<div class="row">
 					<div class="col s12 m4 black-text">
 						<div class="card hover-reveal">
 							<div class="card-image waves-effect waves-block waves-light"><img class="activator" src="img/wordofcivilengineer.jpg"></div>
@@ -173,8 +172,7 @@
 								<p align="justify" class="black-text" style="font-size:18px">Learning 360 degree photography</p>
 							</div>
 						</div>
-					</div>			
-				</div>
+					</div>		
 			</div>
 		</div>
 	</div>
@@ -910,7 +908,7 @@
 	               errorList.empty();
 
 	               // Find all invalid fields within the form.
-	               var invalidFields = form.find(":invalid").each(function(index, node) {
+	               var invalidFields = form.find(":invalid").each(function(index, node) {			
 
 	                   // Find the field's corresponding label
 	                   var label = $("label[for=" + node.id + "] "),
