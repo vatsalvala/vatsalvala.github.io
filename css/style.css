@@ -20,7 +20,6 @@ version 2.0
 /* ===================================
     1. Global CSS
 ====================================== */
-
     @font-face {
     font-family: 'OCR A Std';
     font-style: normal;
@@ -28,15 +27,13 @@ version 2.0
     src: local('OCR A Std'), url('../fonts/OCRAStd.woff') format('woff');
     }
 
-
-
 body
 {
-    font-family: 'OCR A Std';
-    font-size: 13px; 	
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px; 	
     line-height: 25px;
     font-weight: 400;	    
-    color: #000000;
+    color: #6c6c6c;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -160,13 +157,13 @@ body img
 
 .site-description
 {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 20px;
 }
 
 .page h1.entry-title
 {    
-    font-family: 'Montserrat', Arial;
+    font-family: 'Montserrat', sans-serif, Arial;
     font-size: 24px;
     line-height: 38px;
     padding: 0;
@@ -179,7 +176,7 @@ body img
 
 #header-main-menu
 {
-    font-family: 'OCR A Std', Arial;
+    font-family: 'Montserrat', sans-serif, Arial;
     padding-left: 50px;
     padding-top: 150px;    
 }
@@ -199,9 +196,9 @@ body img
 {    
     color: #ffffff;
     padding: 5px 0;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .sm-clean a:after {
@@ -209,7 +206,7 @@ body img
     display: block;
     width: 0;
     height: 6px;
-    background-color: #0058a8;
+    background-color: #8bd2ff;
     transition: width .3s;
     position: absolute;
     left: 0;
@@ -422,7 +419,7 @@ body img
 
 .carousel-cell h3.entry-title 
 {
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     font-size: 15px;
     line-height: 20px;
     padding: 0;
@@ -524,11 +521,10 @@ body img
 
 h3.about-name
 {
-    font-family: 'OCR A Std';
-    font-size: 20px;
+    font-family: 'Montserrat', sans-serif, Arial;
+    font-size: 24px;
     line-height: 38px;
     padding: 0;
-    color: #0058a8;
 }
 
 .about-position
@@ -554,9 +550,9 @@ h3.about-name
 
 .progress_bar_title
 {
-    font-family: "OCR A Std";
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 22px;
     color: #000;
 }
@@ -567,7 +563,7 @@ h3.about-name
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #f15e7e;
+    background-color: #000;
 }
 
 ul.services-list li:after       
@@ -595,7 +591,7 @@ ul.services-list li:after
 .service-title
 {
     display: block;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 17px;    
     color: #000;
     padding-bottom: 10px;
@@ -642,7 +638,7 @@ ul.services-list li:after
 
 .blog-item-holder h2.entry-title 
 {
-    font-family: 'OCR A Std';
+    font-family: 'Montserrat', sans-serif, Arial;
     font-size: 32px;
     line-height: 38px;
     font-weight: 700;
@@ -698,7 +694,6 @@ ul.services-list li:after
     display: inline-block;
     font-weight: 700;
     padding-top: 20px;
-    color: #f15e7e;
 }
 
 a.read-more:after 
@@ -738,7 +733,7 @@ a.read-more:hover:after
 
 .single-post h1.entry-title
 {
-    font-family: 'Montserrat', Arial;
+    font-family: 'Montserrat', sans-serif, Arial;
     margin-bottom: 30px;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
@@ -964,10 +959,9 @@ a.read-more:hover:after
 
 .portfolio-text
 {
-    font-size: 13px;
-    line-height: 10px;
+    font-size: 15px;
+    line-height: 20px;
     font-weight: 700;
-    color: #f15e7e;
 }
 .grid-item a:hover
 {
@@ -999,10 +993,9 @@ a.read-more:hover:after
 
 .single-portfolio h1.entry-title 
 {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 38px;
     padding-top: 0;
-    color: #0058a8;
 }
 
 .single-nav 
@@ -1078,7 +1071,7 @@ a.read-more:hover:after
     margin: 20px 0;
     height: 28px;
     font-size: 15px;
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     width: 100%;
     line-height: 25px;
 }
@@ -1105,7 +1098,7 @@ a.read-more:hover:after
     vertical-align: middle;
     text-decoration: none;
     background: transparent;
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     font-weight: 700;
     width: 100%;
     font-size: 15px;
@@ -1118,24 +1111,24 @@ a.read-more:hover:after
 
 .contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
 {
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     color: #404040;
     font-weight: 400;
     font-size: 15px;
-    line-height: 25px;  
+    line-height: 25px;    
 }
 .contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
 {
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     color: #404040;
     font-weight: 400;
-    font-size: 15px;  
+    font-size: 15px;
     line-height: 25px;
     opacity: 1;    
 }
 .contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
 {
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     color: #404040;
     font-weight: 400;
     font-size: 15px;
@@ -1143,7 +1136,7 @@ a.read-more:hover:after
 }
 .contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
 {
-    font-family: 'OCR A Std';
+    font-family: 'Roboto', sans-serif;
     color: #404040;
     font-weight: 400;
     font-size: 15px;
@@ -1297,7 +1290,7 @@ a.read-more:hover:after
         padding-top: 40px;
         text-align: left;
         padding-left: 80px;
-        max-width: 300px;
+        max-width: 200px;
     }   
 
     .flickity-prev-next-button.next
