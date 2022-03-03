@@ -21,6 +21,15 @@ version 2.0
     1. Global CSS
 ====================================== */
 
+    @font-face {
+    font-family: 'OCR A Std';
+    font-style: normal;
+    font-weight: normal;
+    src: local('OCR A Std'), url('OCRAStd.woff') format('woff');
+    }
+
+
+
 body
 {
     font-family: 'OCR A Std';
