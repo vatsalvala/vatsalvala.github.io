@@ -24,16 +24,16 @@ version 2.0
     font-family: 'OCR A Std';
     font-style: normal;
     font-weight: normal;
-    src: local('OCR A Std'), url('../fonts/OCRAStd.woff') format('woff');
+    src: local('OCR A Std'), url('./fonts/OCRAStd.woff') format('woff');
     }
     
 body
 {
     font-family: 'OCR A Std', sans-serif;
-    font-size: 13px; 	
+    font-size: 15px; 	
     line-height: 25px;
     font-weight: 400;	    
-    color: #000000;
+    color: #6c6c6c;
     background-color: #fff;
     overflow-x: hidden;
 }
@@ -163,7 +163,7 @@ body img
 
 .page h1.entry-title
 {    
-    font-family: 'Montserrat', sans-serif, Arial;
+    font-family: 'OCR A Std', sans-serif, Arial;
     font-size: 24px;
     line-height: 38px;
     padding: 0;
@@ -419,7 +419,7 @@ body img
 
 .carousel-cell h3.entry-title 
 {
-    font-family: 'OCR A Std';
+    font-family: 'OCR A Std', sans-serif;
     font-size: 15px;
     line-height: 20px;
     padding: 0;
@@ -521,7 +521,7 @@ body img
 
 h3.about-name
 {
-    font-family: 'OCR A Std', sans-serif;
+    font-family: 'OCR A Std', sans-serif, Arial;
     font-size: 20px;
     line-height: 38px;
     padding: 0;
@@ -639,7 +639,7 @@ ul.services-list li:after
 
 .blog-item-holder h2.entry-title 
 {
-    font-family: 'OCR A Std', sans-serif;
+    font-family: 'OCR A Std', sans-serif, Arial;
     font-size: 32px;
     line-height: 38px;
     font-weight: 700;
@@ -735,7 +735,7 @@ a.read-more:hover:after
 
 .single-post h1.entry-title
 {
-    font-family: 'Montserrat', sans-serif, Arial;
+    font-family: 'OCR A Std', sans-serif, Arial;
     margin-bottom: 30px;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
@@ -1119,14 +1119,14 @@ a.read-more:hover:after
     color: #404040;
     font-weight: 400;
     font-size: 15px;
-    line-height: 25px;  
+    line-height: 25px;    
 }
 .contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
 {
     font-family: 'OCR A Std', sans-serif;
     color: #404040;
     font-weight: 400;
-    font-size: 15px;  
+    font-size: 15px;
     line-height: 25px;
     opacity: 1;    
 }
