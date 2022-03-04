@@ -206,7 +206,7 @@ body img
     display: block;
     width: 0;
     height: 6px;
-    background-color: #8bd2ff;
+    background-color: #0058a8;
     transition: width .3s;
     position: absolute;
     left: 0;
@@ -996,7 +996,7 @@ a.read-more:hover:after
 
 .single-portfolio h1.entry-title 
 {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 38px;
     padding-top: 0;
     color: #0058a8;
