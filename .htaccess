@@ -1,3 +1,4 @@
+# Redirect non-existing pages to index.html
 Options +MultiViews
 RewriteEngine On 
 RewriteCond %{REQUEST_FILENAME} !-f 
