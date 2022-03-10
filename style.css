@@ -177,7 +177,7 @@ body img
 #header-main-menu
 {
     font-family: 'OCR A Std', sans-serif, Arial;
-    padding-left: 50px;
+    padding-left: 30px;
     padding-top: 150px;    
 }
 
@@ -206,7 +206,7 @@ body img
     display: block;
     width: 0;
     height: 6px;
-    background-color: #0058a8;
+    background-color: #f15e7e;
     transition: width .3s;
     position: absolute;
     left: 0;
@@ -525,7 +525,7 @@ h3.about-name
     font-size: 22px;
     line-height: 38px;
     padding: 0;
-    color: #0058a8;
+    color: #f;
 }
 
 .about-position
@@ -964,7 +964,7 @@ a.read-more:hover:after
     font-size: 15px;
     line-height: 10px;
     font-weight: 700;
-    color: #f15e7e;
+    color: #0058a8;
 }
 .grid-item a:hover
 {
@@ -975,7 +975,7 @@ a.read-more:hover:after
 {
     line-height: 25px;
     font-size: 12px;
-    color: #000;
+    color: #f15e7e;
 }
 
 .portfolio-cat:before 
@@ -996,7 +996,7 @@ a.read-more:hover:after
 
 .single-portfolio h1.entry-title 
 {
-    font-size: 20px;
+    font-size: 23px;
     line-height: 38px;
     padding-top: 0;
     color: #0058a8;
@@ -1066,7 +1066,7 @@ a.read-more:hover:after
     margin: 0 auto;
 }
 
-.contact-form input[type=text], .contact-form input[type=email], .contact-form textarea
+.contact-form input[type=text], .contact-form input[type=number], .contact-form input[type=email], .contact-form textarea
 {
     border: 0;
     border-bottom: 2px solid;
@@ -1110,10 +1110,10 @@ a.read-more:hover:after
 }
 .contact-form input[type=submit]:hover
 {
-    color: #0697ae;
+    color: #f15e7e;
 }
 
-.contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
+.contact-form input[type=text]::-webkit-input-placeholder, .contact-form input[type=number]::-webkit-input-placeholder, .contact-form input[type=email]::-webkit-input-placeholder, .contact-form textarea::-webkit-input-placeholder
 {
     font-family: 'OCR A Std', sans-serif;
     color: #404040;
@@ -1121,7 +1121,7 @@ a.read-more:hover:after
     font-size: 15px;
     line-height: 25px;    
 }
-.contact-form input[type=text]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
+.contact-form input[type=text]::-moz-placeholder, .contact-form input[type=number]::-moz-placeholder, .contact-form input[type=email]::-moz-placeholder, .contact-form textarea::-moz-placeholder
 {
     font-family: 'OCR A Std', sans-serif;
     color: #404040;
@@ -1130,7 +1130,7 @@ a.read-more:hover:after
     line-height: 25px;
     opacity: 1;    
 }
-.contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
+.contact-form input[type=text]:-ms-input-placeholder, .contact-form input[type=number]:-ms-input-placeholder, .contact-form input[type=email]:-ms-input-placeholder, .contact-form textarea:-ms-input-placeholder
 {
     font-family: 'OCR A Std', sans-serif;
     color: #404040;
@@ -1138,7 +1138,7 @@ a.read-more:hover:after
     font-size: 15px;
     line-height: 25px;    
 }
-.contact-form input[type=text]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
+.contact-form input[type=text]:-moz-placeholder, .contact-form input[type=number]:-moz-placeholder, .contact-form input[type=email]:-moz-placeholder, .contact-form textarea:-moz-placeholder
 {
     font-family: 'OCR A Std', sans-serif;
     color: #404040;
@@ -1147,7 +1147,6 @@ a.read-more:hover:after
     line-height: 25px;
     opacity: 1;    
 }
-
 
 
 /* ===================================
