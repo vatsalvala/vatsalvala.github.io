@@ -1,2 +1,21 @@
-Options +MultiViews
-ErrorDocument 404 /index.html
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^vatsalvala.in[nc]
+RewriteRule ^(.*)$ http://www.vatsalvala.in/$1 [r=301,nc]
+
+//Custom 400 errors
+ErrorDocument 400 index
+
+//Custom 401 errors
+ErrorDocument 401 index
+
+//Custom 403 errors
+ErrorDocument 403 index
+
+//Custom 404 errors
+ErrorDocument 404 index
+
+//Custom 500 errors
+ErrorDocument 500 index
+ 
